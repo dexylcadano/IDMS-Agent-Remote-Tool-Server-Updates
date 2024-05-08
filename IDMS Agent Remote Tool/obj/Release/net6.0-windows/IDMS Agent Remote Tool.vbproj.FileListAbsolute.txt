@@ -1,0 +1,93 @@
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\IDMS Agent Remote Tool.exe
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\IDMS Agent Remote Tool.deps.json
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\IDMS Agent Remote Tool.runtimeconfig.json
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\IDMS Agent Remote Tool.dll
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\ref\IDMS Agent Remote Tool.dll
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\IDMS Agent Remote Tool.pdb
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.vbproj.AssemblyReference.cache
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS_Agent_Remote_Tool.frmMain.resources
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.vbproj.GenerateResource.cache
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.GeneratedMSBuildEditorConfig.editorconfig
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.AssemblyInfoInputs.cache
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.AssemblyInfo.vb
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.vbproj.CoreCompileInputs.cache
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.dll
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\ref\IDMS Agent Remote Tool.dll
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.pdb
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.genruntimeconfig.cache
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\bin\Release\net6.0-windows\IDMS Agent Remote Tool.exe
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\bin\Release\net6.0-windows\IDMS Agent Remote Tool.deps.json
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\bin\Release\net6.0-windows\IDMS Agent Remote Tool.runtimeconfig.json
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\bin\Release\net6.0-windows\IDMS Agent Remote Tool.dll
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\bin\Release\net6.0-windows\ref\IDMS Agent Remote Tool.dll
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\bin\Release\net6.0-windows\IDMS Agent Remote Tool.pdb
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\bin\Release\net6.0-windows\Google.Protobuf.dll
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\bin\Release\net6.0-windows\K4os.Compression.LZ4.dll
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\bin\Release\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\bin\Release\net6.0-windows\K4os.Hash.xxHash.dll
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\bin\Release\net6.0-windows\MySql.Data.dll
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\bin\Release\net6.0-windows\ZstdNet.dll
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\bin\Release\net6.0-windows\BouncyCastle.Crypto.dll
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\bin\Release\net6.0-windows\System.CodeDom.dll
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\bin\Release\net6.0-windows\System.Management.dll
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\bin\Release\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\bin\Release\net6.0-windows\System.Web.Extensions.dll
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\bin\Release\net6.0-windows\System.Web.Abstractions.dll
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\bin\Release\net6.0-windows\System.Data.Linq.dll
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\bin\Release\net6.0-windows\System.Data.Services.Client.dll
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\bin\Release\net6.0-windows\System.Data.Services.Design.dll
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\bin\Release\net6.0-windows\System.Data.Entity.dll
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS_Agent_Remote_Tool.AdminAuth.resources
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS_Agent_Remote_Tool.frmDeviceInformation.resources
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS_Agent_Remote_Tool.frmMain.resources
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS_Agent_Remote_Tool.frmLogin.resources
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS_Agent_Remote_Tool.Resources.resources
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.vbproj.GenerateResource.cache
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.GeneratedMSBuildEditorConfig.editorconfig
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.AssemblyInfoInputs.cache
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.AssemblyInfo.vb
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.vbproj.CoreCompileInputs.cache
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.vbproj.CopyComplete
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.dll
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\obj\Release\net6.0-windows\ref\IDMS Agent Remote Tool.dll
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.pdb
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.genruntimeconfig.cache
+D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.vbproj.AssemblyReference.cache
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\IDMS Agent Remote Tool.exe
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\IDMS Agent Remote Tool.deps.json
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\IDMS Agent Remote Tool.runtimeconfig.json
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\IDMS Agent Remote Tool.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\ref\IDMS Agent Remote Tool.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\IDMS Agent Remote Tool.pdb
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\Google.Protobuf.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\K4os.Compression.LZ4.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\K4os.Hash.xxHash.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\MySql.Data.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\ZstdNet.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\BouncyCastle.Crypto.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\System.CodeDom.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\System.Management.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\System.Web.Extensions.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\System.Web.Abstractions.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\System.Data.Linq.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\System.Data.Services.Client.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\System.Data.Services.Design.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\System.Data.Entity.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.vbproj.AssemblyReference.cache
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS_Agent_Remote_Tool.AdminAuth.resources
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS_Agent_Remote_Tool.frmDeviceInformation.resources
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS_Agent_Remote_Tool.frmMain.resources
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS_Agent_Remote_Tool.frmLogin.resources
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS_Agent_Remote_Tool.Resources.resources
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.vbproj.GenerateResource.cache
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.GeneratedMSBuildEditorConfig.editorconfig
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.AssemblyInfoInputs.cache
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.AssemblyInfo.vb
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.vbproj.CoreCompileInputs.cache
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.vbproj.CopyComplete
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\ref\IDMS Agent Remote Tool.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.pdb
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.genruntimeconfig.cache

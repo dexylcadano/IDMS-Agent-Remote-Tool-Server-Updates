@@ -1,0 +1,17 @@
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\obj\Debug\net6.0-windows\Computer Monitoring Tool.vbproj.AssemblyReference.cache
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\obj\Debug\net6.0-windows\Computer Monitoring Tool.vbproj.GenerateResource.cache
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\obj\Debug\net6.0-windows\Computer Monitoring Tool.GeneratedMSBuildEditorConfig.editorconfig
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\obj\Debug\net6.0-windows\Computer Monitoring Tool.AssemblyInfoInputs.cache
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\obj\Debug\net6.0-windows\Computer Monitoring Tool.AssemblyInfo.vb
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\obj\Debug\net6.0-windows\Computer Monitoring Tool.vbproj.CoreCompileInputs.cache
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\obj\Debug\net6.0-windows\Computer Monitoring Tool.genruntimeconfig.cache
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\bin\Debug\net6.0-windows\IDMS Agent Remote Tool.exe
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\bin\Debug\net6.0-windows\IDMS Agent Remote Tool.deps.json
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\bin\Debug\net6.0-windows\IDMS Agent Remote Tool.runtimeconfig.json
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\bin\Debug\net6.0-windows\IDMS Agent Remote Tool.dll
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\bin\Debug\net6.0-windows\ref\IDMS Agent Remote Tool.dll
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\bin\Debug\net6.0-windows\IDMS Agent Remote Tool.pdb
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\obj\Debug\net6.0-windows\IDMS Agent Remote Tool.dll
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\obj\Debug\net6.0-windows\ref\IDMS Agent Remote Tool.dll
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\obj\Debug\net6.0-windows\IDMS Agent Remote Tool.pdb
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\obj\Debug\net6.0-windows\IDMS_Agent_Remote_Tool.frmMain.resources
