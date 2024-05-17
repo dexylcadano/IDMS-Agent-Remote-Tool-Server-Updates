@@ -11,9 +11,9 @@
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
     <OptionCompare>Binary</OptionCompare>
     <ApplicationIcon>complete logo.ico</ApplicationIcon>
-    <Version>0.0.0.5</Version>
-    <AssemblyVersion>0.0.0.5</AssemblyVersion>
-    <FileVersion>0.0.0.5</FileVersion>
+    <Version>0.0.0.6</Version>
+    <AssemblyVersion>0.0.0.6</AssemblyVersion>
+    <FileVersion>0.0.0.6</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

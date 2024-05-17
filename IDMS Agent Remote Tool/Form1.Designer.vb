@@ -31,7 +31,6 @@ Partial Class frmMain
         Me.imgStatusIcon = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.tmrRecon = New System.Windows.Forms.Timer(Me.components)
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.imgStatusIcon, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -114,10 +113,6 @@ Partial Class frmMain
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
-        'tmrRecon
-        '
-        Me.tmrRecon.Interval = 10000
-        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
@@ -146,5 +141,4 @@ Partial Class frmMain
     Friend WithEvents Label1 As Label
     Friend WithEvents lblStatus As Label
     Friend WithEvents PictureBox3 As PictureBox
-    Friend WithEvents tmrRecon As Timer
 End Class

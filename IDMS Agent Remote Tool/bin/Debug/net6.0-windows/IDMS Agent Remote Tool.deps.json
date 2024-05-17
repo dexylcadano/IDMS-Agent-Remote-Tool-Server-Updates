@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "IDMS Agent Remote Tool/0.0.0.5": {
+      "IDMS Agent Remote Tool/0.0.0.6": {
         "dependencies": {
           "MySql.Data": "8.0.31",
           "System.Management": "7.0.0",
@@ -210,7 +210,7 @@
     }
   },
   "libraries": {
-    "IDMS Agent Remote Tool/0.0.0.5": {
+    "IDMS Agent Remote Tool/0.0.0.6": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

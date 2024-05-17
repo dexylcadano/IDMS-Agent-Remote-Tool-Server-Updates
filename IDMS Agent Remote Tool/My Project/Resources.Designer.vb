@@ -61,6 +61,15 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to optimus455pdr0w.
+        '''</summary>
+        Friend ReadOnly Property admin_password() As String
+            Get
+                Return ResourceManager.GetString("admin_password", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to chhbmuro_idms_agent.
         '''</summary>
         Friend ReadOnly Property Db() As String
