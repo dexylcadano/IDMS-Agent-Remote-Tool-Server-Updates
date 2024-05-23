@@ -1,7 +1,6 @@
 ﻿Public Class frmDeviceInformation
-    Dim dbUser As CDatabaseEHealth
-    Dim db As CDatabase
-
+    Public Property token As String
+    Private agent As CAgentAPI
 
     Public Sub New()
 
@@ -9,28 +8,29 @@
         InitializeComponent()
 
         ' Add any initialization after the InitializeComponent() call.
-        Me.dbUser = CDatabaseEHealth.getInstanceEHealth()
-        Me.db = CDatabase.getInstance()
+        agent = CAgentAPI.GetInstance()
     End Sub
 
     Private Sub frmDeviceInformation_Load(sender As Object, e As EventArgs) Handles Me.Load
-        txtPCName.Text = My.Computer.Name.ToString()
 
-        Dim users As DataTable = dbUser.GetUsers()
-        users.Columns.Add("fullName", GetType(String), "first_name + ' ' + middle_name + ' ' + last_name")
-        listUsers.DataSource = users
-        cmbUsers.DataSource = listUsers
-        cmbUsers.DisplayMember = "fullName"
-        cmbUsers.ValueMember = "user_id"
+        Try
+            txtPCName.Text = My.Computer.Name.ToString()
 
-        loadInformation()
+            cmbUsers.DataSource = agent.GetAllUsers(token)
+            cmbUsers.DisplayMember = "name"
+            cmbUsers.ValueMember = "user_id"
+
+            loadInformation()
+        Catch ex As Exception
+
+        End Try
     End Sub
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
         Dim userID As Integer = cmbUsers.SelectedValue
         Dim mainForm As frmMain = Application.OpenForms("frmMain")
 
-        If mainForm.PC_ID < 1 Then
+        If mainForm.pcID < 1 Then
             MsgBox("Unable to fetch PC information!", MsgBoxStyle.OkOnly, "Error")
 
             Exit Sub
@@ -42,22 +42,33 @@
             Exit Sub
         End If
 
-        db.setUser(mainForm.PC_ID, userID, txtLocation.Text)
-        Me.Close()
-        MsgBox("Information successfully updated!", MsgBoxStyle.OkOnly, "Done")
+        Try
+            Dim newInfo As New Dictionary(Of String, String) From {{"user", userID.ToString}, {"location", txtLocation.Text}}
+
+            agent.SetUser(token, mainForm.pcID, newInfo)
+
+            Me.Close()
+            MsgBox("Information successfully updated!", MsgBoxStyle.OkOnly, "Done")
+        Catch ex As Exception
+            MsgBox("Unable to update PC information!", MsgBoxStyle.OkOnly, "Error")
+            Me.Close()
+        End Try
+
     End Sub
 
     Private Sub loadInformation()
         Dim mainForm As frmMain = Application.OpenForms("frmMain")
 
-        Dim userID = db.getUser(mainForm.PC_ID)
+        Dim user = agent.GetUser(mainForm.pcID, token)
 
-        If userID Then
+        Try
+            Dim userID = CInt(user("user").ToString())
+
             cmbUsers.SelectedValue = userID
-        Else
+        Catch ex As Exception
             cmbUsers.SelectedIndex = -1
-        End If
+        End Try
 
-        txtLocation.Text = db.getLocation(mainForm.PC_ID)
+        txtLocation.Text = user("location").ToString()
     End Sub
 End Class

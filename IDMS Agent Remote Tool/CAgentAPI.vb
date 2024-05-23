@@ -6,17 +6,25 @@ Public Enum APIRETURNRESULT
     FAILED
 End Enum
 
+Public Class User
+    Public Property user_id As Integer
+    Public Property name As String
+End Class
 Public Class CAgentAPI
-    Private Shared syncLocker As New Object()
+    Public Const eHealthBaseUrl = "http://172.31.137.67/api/"
+
+    Private Shared ReadOnly syncLocker As New Object()
     Private Shared singleAPI As CAgentAPI
 
-    Private token As String
+    Private ReadOnly token As String
 
     Public Sub New()
-        token = GetToken()
+        Dim myData As New Dictionary(Of String, String) From {{"password", My.Resources.admin_password}}
+
+        token = GetToken(myData)
     End Sub
 
-    Public Shared Function getInstance() As CAgentAPI
+    Public Shared Function GetInstance() As CAgentAPI
         If (singleAPI Is Nothing) Then
             SyncLock (syncLocker)
                 If (singleAPI Is Nothing) Then
@@ -27,29 +35,42 @@ Public Class CAgentAPI
         Return singleAPI
     End Function
 
-    Private Function GetToken() As String
-        Dim myData As New Dictionary(Of String, String)
-        myData.Add("password", My.Resources.admin_password)
+    Public Function GetToken(ByVal info As Dictionary(Of String, String)) As String
 
-        Return JsonSerializer.Deserialize(Of Dictionary(Of String, String))(CRESTAPI.PostRequest("v1/auth/tokens", myData))("token").ToString()
+        Return JsonSerializer.Deserialize(Of Dictionary(Of String, String))(CRESTAPI.HTTPRequest("v1/auth/tokens", info))("token").ToString()
     End Function
 
     Public Function UpdatePCMainInfo(ByVal info As Dictionary(Of String, String)) As Integer
-
-        Return CInt(JsonSerializer.Deserialize(Of Dictionary(Of String, Object))(CRESTAPI.PostRequest("v1/pc-main", info, token))("id").ToString())
+        Return CInt(JsonSerializer.Deserialize(Of Dictionary(Of String, Object))(CRESTAPI.HTTPRequest("v1/pc-main", info, token))("id").ToString())
     End Function
 
     Public Sub UpdatePCInfo(ByVal info As Dictionary(Of String, Dictionary(Of String, String)), ByVal id As Integer)
-        Dim headers As New Dictionary(Of String, String)
-        headers.Add("id", id.ToString)
+        Dim headers As New Dictionary(Of String, String) From {{"id", id.ToString}}
 
-        CRESTAPI.PostRequest("v1/pc-info", info, token, headers)
+        CRESTAPI.HTTPRequest("v1/pc-info", info, token, headers)
     End Sub
 
-    Public Sub UpdatePCPorts(ByVal info As Dictionary(Of String, String), ByVal id As Integer)
-        Dim headers As New Dictionary(Of String, String)
-        headers.Add("id", id.ToString)
+    Public Sub UpdatePCPorts(ByVal info As List(Of Dictionary(Of String, String)), ByVal id As Integer)
+        Dim headers As New Dictionary(Of String, String) From {{"id", id.ToString}}
 
-        CRESTAPI.PostRequest("v1/pc-network-ports", info, token, headers)
+        CRESTAPI.HTTPRequest("v1/pc-network-ports", info, token, headers)
+    End Sub
+
+    Public Function GetAllUsers(ByVal newToken As String) As List(Of User)
+        Dim users As New List(Of Dictionary(Of String, String))
+
+        Return JsonSerializer.Deserialize(Of List(Of User))(CRESTAPI.HTTPRequest("v1/users?formatting=for_drop_down", Nothing, newToken, Nothing, HTTPMethod.GETREQUEST, eHealthBaseUrl))
+    End Function
+
+    Public Function GetUser(ByVal pcID As Integer, ByVal newToken As String) As Dictionary(Of String, Object)
+        Return JsonSerializer.Deserialize(Of Dictionary(Of String, Object))(CRESTAPI.HTTPRequest("v1/pc-main/" & pcID.ToString, Nothing, newToken, Nothing, HTTPMethod.GETREQUEST))
+    End Function
+
+    Public Sub SetUser(ByVal newToken As String, ByVal pcID As Integer, ByVal info As Dictionary(Of String, String))
+        CRESTAPI.HTTPRequest("v1/pc-main/" & pcID.ToString, info, newToken, Nothing, HTTPMethod.PATCHREQUEST)
     End Sub
 End Class
+
+
+
+

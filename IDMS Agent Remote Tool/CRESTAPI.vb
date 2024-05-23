@@ -7,12 +7,20 @@ Public Class APIReturn
     Public Property data As Object
 End Class
 
-Public Class CRESTAPI
-    Private Shared baseURL As String = "http://public_html.test/api/idms-agent/"
+Public Enum HTTPMethod
+    GETREQUEST
+    POSTREQUEST
+    PATCHREQUEST
+End Enum
 
-    Public Shared Function PostRequest(ByVal address As String, ByVal data As Object, Optional token As String = "", Optional headers As Dictionary(Of String, String) = Nothing) As Object
+
+Public Class CRESTAPI
+    Public Const agentBaseUrl = "http://172.31.137.67/api/idms-agent/"
+    Public Const maxRetry = 3
+
+    Public Shared Function HTTPRequest(ByVal address As String, ByVal data As Object, Optional token As String = "", Optional headers As Dictionary(Of String, String) = Nothing, Optional method As HTTPMethod = HTTPMethod.POSTREQUEST, Optional baseUrl As String = agentBaseUrl) As Object
         Dim client As New HttpClient
-        client.BaseAddress = New Uri(baseURL)
+        client.BaseAddress = New Uri(baseUrl)
 
         Dim json = JsonSerializer.Serialize(data)
         Dim content = New StringContent(json, Encoding.UTF8, "application/json")
@@ -27,28 +35,41 @@ Public Class CRESTAPI
             Next
         End If
 
-        Try
-            Dim response = client.PostAsync(address, content).Result
+        For retry As Integer = 1 To maxRetry
+            Try
+                Dim response As HttpResponseMessage
 
-            If response.IsSuccessStatusCode Then
-                Dim resposeValue = response.Content.ReadAsStringAsync().Result
-                Try
-                    Return JsonSerializer.Deserialize(Of APIReturn)(resposeValue).data
-                Catch ex As Exception
+                Select Case method
+                    Case HTTPMethod.GETREQUEST
+                        response = client.GetAsync(address).Result
+                    Case HTTPMethod.POSTREQUEST
+                        response = client.PostAsync(address, content).Result
+                    Case HTTPMethod.PATCHREQUEST
+                        response = client.PatchAsync(address, content).Result
+                    Case Else
+                        Throw New Exception("HTTP Method Error")
+                End Select
+
+                If response.IsSuccessStatusCode Then
+                    Dim resposeValue = response.Content.ReadAsStringAsync().Result
+                    Try
+                        Return JsonSerializer.Deserialize(Of APIReturn)(resposeValue).data
+                    Catch ex As Exception
+                        Throw New CAPIExceptionErrorHandler(response.StatusCode & ": " & response.ReasonPhrase)
+                    End Try
+                Else
                     Throw New CAPIExceptionErrorHandler(response.StatusCode & ": " & response.ReasonPhrase)
-                End Try
-            Else
-                Throw New CAPIExceptionErrorHandler(response.StatusCode & ": " & response.ReasonPhrase)
-            End If
-        Catch ex As Exception
-            If ex.GetType() Is GetType(CAPIExceptionErrorHandler) Then
-                Throw New Exception(ex.Message.ToString)
-            Else
-                Throw New Exception("404: Not Found")
-            End If
+                End If
+            Catch ex As Exception
+                If ex.GetType() Is GetType(CAPIExceptionErrorHandler) Then
+                    Throw New Exception(ex.Message.ToString)
+                End If
+            End Try
+        Next
 
-        End Try
+        Throw New Exception("404: Not Found")
     End Function
+
 End Class
 
 Public Class CAPIExceptionErrorHandler

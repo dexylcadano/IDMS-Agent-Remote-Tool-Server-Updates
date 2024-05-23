@@ -1,29 +1,33 @@
 ﻿Public Class AdminAuth
-    Private database As CDatabase
+    Private agent As CAgentAPI
 
-    Public Sub New()
-
-        ' This call is required by the designer.
-        InitializeComponent()
-
-        ' Add any initialization after the InitializeComponent() call.
-        database = CDatabase.getInstance()
-    End Sub
+    Private token As String
 
     Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
         Dim txtPass As String = editPassword.Text
 
-        If (database.AuthAdmin(txtPass)) Then
-            Me.Close()
+        agent = CAgentAPI.GetInstance()
 
+        Try
+            Dim myData As New Dictionary(Of String, String) From {{"password", txtPass}}
+
+            token = agent.GetToken(myData)
+
+            frmDeviceInformation.token = Me.token
             frmDeviceInformation.Show()
-        Else
+
+            Me.Close()
+        Catch ex As Exception
             MsgBox("Wrong Password!", MsgBoxStyle.OkOnly, "Error")
             editPassword.Text = ""
-        End If
+        End Try
     End Sub
 
     Private Sub btnCancel_Click(sender As Object, e As EventArgs) Handles btnCancel.Click
         Me.Close()
+    End Sub
+
+    Private Sub AdminAuth_Load(sender As Object, e As EventArgs) Handles Me.Load
+        editPassword.Select()
     End Sub
 End Class

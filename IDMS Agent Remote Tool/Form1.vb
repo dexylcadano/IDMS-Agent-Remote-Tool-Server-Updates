@@ -4,7 +4,7 @@ Imports System.Threading
 Public Class frmMain
 
     Private sysInfo As New CSystemInformation
-    Public pcID As Integer = 0
+    Public Property pcID As Integer = 0
     Private agent As CAgentAPI
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -19,26 +19,17 @@ Public Class frmMain
         Try
             Me.Invoke(Sub() UpdateStatus(True, "Scanning..."))
 
-            agent = CAgentAPI.getInstance()
+            agent = CAgentAPI.GetInstance()
 
-            Dim id = agent.UpdatePCMainInfo(sysInfo.GetListSysInfo())
-            agent.UpdatePCInfo(sysInfo.GetPCInfo(), id)
-            agent.UpdatePCPorts(sysInfo.CheckPorts(), id)
+            pcID = agent.UpdatePCMainInfo(sysInfo.GetListSysInfo())
+            agent.UpdatePCInfo(sysInfo.GetPCInfo(), pcID)
+            agent.UpdatePCPorts(sysInfo.CheckPorts(), pcID)
 
             Me.Invoke(Sub() UpdateStatus(True))
         Catch ex As Exception
             Me.Invoke(Sub() UpdateStatus(False, ex.Message.ToString))
         End Try
     End Sub
-
-    Public Property PC_ID() As Integer
-        Get
-            Return pcID
-        End Get
-        Set(ByVal value As Integer)
-            pcID = value
-        End Set
-    End Property
 
     Public Sub UpdateStatus(ByVal status As Boolean)
         If status Then
@@ -71,8 +62,6 @@ Public Class frmMain
     End Sub
 
     Private Sub frmMain_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
-        sysInfo.Closing()
-
         NotifyIcon1.Dispose()
     End Sub
 

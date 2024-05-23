@@ -59,13 +59,6 @@ D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\
 D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\IDMS Agent Remote Tool.dll
 D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\ref\IDMS Agent Remote Tool.dll
 D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\IDMS Agent Remote Tool.pdb
-D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\Google.Protobuf.dll
-D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\K4os.Compression.LZ4.dll
-D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\K4os.Compression.LZ4.Streams.dll
-D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\K4os.Hash.xxHash.dll
-D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\MySql.Data.dll
-D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\ZstdNet.dll
-D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\BouncyCastle.Crypto.dll
 D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\System.CodeDom.dll
 D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\System.Management.dll
 D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
@@ -75,7 +68,6 @@ D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\
 D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\System.Data.Services.Client.dll
 D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\System.Data.Services.Design.dll
 D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\System.Data.Entity.dll
-D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.vbproj.AssemblyReference.cache
 D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS_Agent_Remote_Tool.AdminAuth.resources
 D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS_Agent_Remote_Tool.frmDeviceInformation.resources
 D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS_Agent_Remote_Tool.frmMain.resources
