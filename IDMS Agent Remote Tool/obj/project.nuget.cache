@@ -7,12 +7,5 @@
     "C:\\Users\\dpcadano\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
     "C:\\Users\\dpcadano\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
