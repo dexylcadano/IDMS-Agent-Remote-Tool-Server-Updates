@@ -83,3 +83,28 @@ D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\
 D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\ref\IDMS Agent Remote Tool.dll
 D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.pdb
 D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.genruntimeconfig.cache
+C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\IDMS Agent Remote Tool.exe
+C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\IDMS Agent Remote Tool.deps.json
+C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\IDMS Agent Remote Tool.runtimeconfig.json
+C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\IDMS Agent Remote Tool.dll
+C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\IDMS Agent Remote Tool.pdb
+C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\System.CodeDom.dll
+C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\System.Management.dll
+C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Release\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
+C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.vbproj.AssemblyReference.cache
+C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS_Agent_Remote_Tool.AdminAuth.resources
+C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS_Agent_Remote_Tool.frmDeviceInformation.resources
+C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS_Agent_Remote_Tool.frmMain.resources
+C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS_Agent_Remote_Tool.frmLogin.resources
+C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS_Agent_Remote_Tool.Resources.resources
+C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.vbproj.GenerateResource.cache
+C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.GeneratedMSBuildEditorConfig.editorconfig
+C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.AssemblyInfoInputs.cache
+C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.AssemblyInfo.vb
+C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.vbproj.CoreCompileInputs.cache
+C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Age.56DB5339.Up2Date
+C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.dll
+C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\refint\IDMS Agent Remote Tool.dll
+C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.pdb
+C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\IDMS Agent Remote Tool.genruntimeconfig.cache
+C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Release\net6.0-windows\ref\IDMS Agent Remote Tool.dll
