@@ -112,7 +112,7 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "0.0.0.6",
+    "version": "0.0.0.7",
     "restore": {
       "projectUniqueName": "C:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj",
       "projectName": "IDMS Agent Remote Tool",
@@ -184,5 +184,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

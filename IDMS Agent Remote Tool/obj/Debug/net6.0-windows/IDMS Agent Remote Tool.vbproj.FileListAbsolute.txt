@@ -53,6 +53,7 @@ D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\o
 D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS Agent Remote Tool.vbproj.AssemblyReference.cache
 D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS_Agent_Remote_Tool.AdminAuth.resources
 D:\Jobs\Working Directory\IDMS Agent Remote Tool\Source\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS_Agent_Remote_Tool.frmDeviceInformation.resources
+<<<<<<< HEAD
 C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Debug\net6.0-windows\IDMS Agent Remote Tool.exe
 C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Debug\net6.0-windows\IDMS Agent Remote Tool.deps.json
 C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Debug\net6.0-windows\IDMS Agent Remote Tool.runtimeconfig.json
@@ -78,3 +79,36 @@ C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-wi
 C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS Agent Remote Tool.pdb
 C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS Agent Remote Tool.genruntimeconfig.cache
 C:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\ref\IDMS Agent Remote Tool.dll
+=======
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Debug\net6.0-windows\IDMS Agent Remote Tool.exe
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Debug\net6.0-windows\IDMS Agent Remote Tool.deps.json
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Debug\net6.0-windows\IDMS Agent Remote Tool.runtimeconfig.json
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Debug\net6.0-windows\IDMS Agent Remote Tool.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Debug\net6.0-windows\ref\IDMS Agent Remote Tool.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Debug\net6.0-windows\IDMS Agent Remote Tool.pdb
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Debug\net6.0-windows\System.CodeDom.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Debug\net6.0-windows\System.Management.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Debug\net6.0-windows\System.Web.Extensions.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Debug\net6.0-windows\System.Web.Abstractions.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Debug\net6.0-windows\System.Data.Linq.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Debug\net6.0-windows\System.Data.Services.Client.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Debug\net6.0-windows\System.Data.Services.Design.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Debug\net6.0-windows\System.Data.Entity.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS_Agent_Remote_Tool.AdminAuth.resources
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS_Agent_Remote_Tool.frmDeviceInformation.resources
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS_Agent_Remote_Tool.frmMain.resources
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS_Agent_Remote_Tool.frmLogin.resources
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS_Agent_Remote_Tool.Resources.resources
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS Agent Remote Tool.vbproj.GenerateResource.cache
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS Agent Remote Tool.GeneratedMSBuildEditorConfig.editorconfig
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS Agent Remote Tool.AssemblyInfoInputs.cache
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS Agent Remote Tool.AssemblyInfo.vb
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS Agent Remote Tool.vbproj.CoreCompileInputs.cache
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS Agent Remote Tool.vbproj.CopyComplete
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS Agent Remote Tool.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\ref\IDMS Agent Remote Tool.dll
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS Agent Remote Tool.pdb
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS Agent Remote Tool.genruntimeconfig.cache
+D:\Jobs\Working Directory\Git\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS Agent Remote Tool.vbproj.AssemblyReference.cache
+>>>>>>> e9752d45ca288b978b7bcd8676dccc90e3086b5b

@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "IDMS Agent Remote Tool/0.0.0.6": {
+      "IDMS Agent Remote Tool/0.0.0.7": {
         "dependencies": {
           "System.Management": "7.0.0"
         },
@@ -44,7 +44,7 @@
     }
   },
   "libraries": {
-    "IDMS Agent Remote Tool/0.0.0.6": {
+    "IDMS Agent Remote Tool/0.0.0.7": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
