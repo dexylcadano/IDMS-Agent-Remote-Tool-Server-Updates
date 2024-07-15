@@ -15,7 +15,11 @@ End Enum
 
 
 Public Class CRESTAPI
-    Public Const agentBaseUrl = "http://172.31.137.67/api/idms-agent/"
+#If DEBUG Then
+    Public Const agentBaseUrl = "http://public_html.test/api/idms-agent/"
+#Else
+    Public Const agentBaseUrl = "https://idms-fo8-app.com/api/idms-agent/"
+#End If
     Public Const maxRetry = 3
 
     Public Shared Function HTTPRequest(ByVal address As String, ByVal data As Object, Optional token As String = "", Optional headers As Dictionary(Of String, String) = Nothing, Optional method As HTTPMethod = HTTPMethod.POSTREQUEST, Optional baseUrl As String = agentBaseUrl) As Object

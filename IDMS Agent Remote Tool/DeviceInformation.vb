@@ -62,7 +62,7 @@
         Dim user = agent.GetUser(mainForm.pcID, token)
 
         Try
-            Dim userID = CInt(user("user").ToString())
+            Dim userID = user("user").ToString()
 
             cmbUsers.SelectedValue = userID
         Catch ex As Exception

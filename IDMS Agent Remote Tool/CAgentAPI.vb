@@ -7,11 +7,17 @@ Public Enum APIRETURNRESULT
 End Enum
 
 Public Class User
-    Public Property user_id As Integer
+    Public Property user_id As String
     Public Property name As String
 End Class
 Public Class CAgentAPI
-    Public Const eHealthBaseUrl = "http://172.31.137.67/api/"
+
+#If DEBUG Then
+    Public Const eHealthBaseUrl = "http://public_html.test/api/"
+#Else
+    Public Const eHealthBaseUrl = "https://idms-fo8-app.com/api/"
+#End If
+
 
     Private Shared ReadOnly syncLocker As New Object()
     Private Shared singleAPI As CAgentAPI
@@ -36,7 +42,6 @@ Public Class CAgentAPI
     End Function
 
     Public Function GetToken(ByVal info As Dictionary(Of String, String)) As String
-
         Return JsonSerializer.Deserialize(Of Dictionary(Of String, String))(CRESTAPI.HTTPRequest("v1/auth/tokens", info))("token").ToString()
     End Function
 
