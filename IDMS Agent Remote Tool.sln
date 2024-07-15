@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "IDMS Agent Remote Tool", "IDMS Agent Remote Tool\IDMS Agent Remote Tool.vbproj", "{09CCEE01-7072-4C68-BDB0-05E81622B263}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "IDMSAgentRemoteToolSetup", "IDMSAgentRemoteToolSetup\IDMSAgentRemoteToolSetup.vdproj", "{EB74D7C2-4ABA-432B-AC64-1A9B52686C03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B639BECF-02AC-4EB2-A1C1-8EA6F0B99148}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09CCEE01-7072-4C68-BDB0-05E81622B263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09CCEE01-7072-4C68-BDB0-05E81622B263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09CCEE01-7072-4C68-BDB0-05E81622B263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09CCEE01-7072-4C68-BDB0-05E81622B263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB74D7C2-4ABA-432B-AC64-1A9B52686C03}.Debug|Any CPU.ActiveCfg = Debug
+		{EB74D7C2-4ABA-432B-AC64-1A9B52686C03}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {652CB95F-BA38-49B2-AC7F-9BD9AA1FBA57}
+	EndGlobalSection
+EndGlobal

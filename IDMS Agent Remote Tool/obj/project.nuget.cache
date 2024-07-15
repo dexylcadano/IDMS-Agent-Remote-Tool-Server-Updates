@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "CnK/KUYOAp1CohcAK6dVNW3dkmqcHcenKbeTNLT3TO7AzfB0mGYnD/zmM7dyYMYhmfZyRBMcG1u+ntf2zlLCuA==",
+  "success": true,
+  "projectFilePath": "D:\\Jobs\\Working Directory\\Git\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rjlmarcha\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\rjlmarcha\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

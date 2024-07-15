@@ -1,0 +1,17 @@
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\bin\Release\net6.0-windows\Computer Monitoring Tool.exe
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\bin\Release\net6.0-windows\Computer Monitoring Tool.deps.json
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\bin\Release\net6.0-windows\Computer Monitoring Tool.runtimeconfig.json
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\bin\Release\net6.0-windows\Computer Monitoring Tool.dll
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\bin\Release\net6.0-windows\ref\Computer Monitoring Tool.dll
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\bin\Release\net6.0-windows\Computer Monitoring Tool.pdb
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\obj\Release\net6.0-windows\Computer Monitoring Tool.vbproj.AssemblyReference.cache
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\obj\Release\net6.0-windows\Computer_Monitoring_Tool.Form1.resources
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\obj\Release\net6.0-windows\Computer Monitoring Tool.vbproj.GenerateResource.cache
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\obj\Release\net6.0-windows\Computer Monitoring Tool.GeneratedMSBuildEditorConfig.editorconfig
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\obj\Release\net6.0-windows\Computer Monitoring Tool.AssemblyInfoInputs.cache
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\obj\Release\net6.0-windows\Computer Monitoring Tool.AssemblyInfo.vb
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\obj\Release\net6.0-windows\Computer Monitoring Tool.vbproj.CoreCompileInputs.cache
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\obj\Release\net6.0-windows\Computer Monitoring Tool.dll
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\obj\Release\net6.0-windows\ref\Computer Monitoring Tool.dll
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\obj\Release\net6.0-windows\Computer Monitoring Tool.pdb
+D:\Jobs\Working Directory\Computer Monitoring Tool\Computer Monitoring Tool\obj\Release\net6.0-windows\Computer Monitoring Tool.genruntimeconfig.cache
