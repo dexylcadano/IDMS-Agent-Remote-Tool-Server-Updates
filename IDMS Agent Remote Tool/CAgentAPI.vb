@@ -10,6 +10,10 @@ Public Class User
     Public Property user_id As String
     Public Property name As String
 End Class
+Public Class Office
+    Public Property office_id As String
+    Public Property office_name As String
+End Class
 Public Class CAgentAPI
 
 #If DEBUG Then
@@ -63,8 +67,12 @@ Public Class CAgentAPI
 
     Public Function GetAllUsers(ByVal newToken As String) As List(Of User)
         Dim users As New List(Of Dictionary(Of String, String))
+        Return JsonSerializer.Deserialize(Of List(Of User))(CRESTAPI.HTTPRequest("v1/users?formatting=for_drop_down", Nothing, newToken, Nothing, HTTPMethod.GETREQUEST))
+    End Function
 
-        Return JsonSerializer.Deserialize(Of List(Of User))(CRESTAPI.HTTPRequest("v1/users?formatting=for_drop_down", Nothing, newToken, Nothing, HTTPMethod.GETREQUEST, eHealthBaseUrl))
+    Public Function GetAllOfficialOffices(ByVal newToken As String) As List(Of Office)
+        Dim offices As New List(Of Dictionary(Of String, String))
+        Return JsonSerializer.Deserialize(Of List(Of Office))(CRESTAPI.HTTPRequest("v1/offices?formatting=for_drop_down", Nothing, newToken, Nothing, HTTPMethod.GETREQUEST))
     End Function
 
     Public Function GetUser(ByVal pcID As Integer, ByVal newToken As String) As Dictionary(Of String, Object)
@@ -75,7 +83,3 @@ Public Class CAgentAPI
         CRESTAPI.HTTPRequest("v1/pc-main/" & pcID.ToString, info, newToken, Nothing, HTTPMethod.PATCHREQUEST)
     End Sub
 End Class
-
-
-
-

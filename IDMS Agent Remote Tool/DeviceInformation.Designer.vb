@@ -22,122 +22,122 @@ Partial Class frmDeviceInformation
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.cmbUsers = New System.Windows.Forms.ComboBox()
-        Me.btnSave = New System.Windows.Forms.Button()
-        Me.txtLocation = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.txtPCName = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.listUsers = New System.Windows.Forms.BindingSource(Me.components)
-        Me.Panel1.SuspendLayout()
-        CType(Me.listUsers, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SuspendLayout()
-        '
-        'Panel1
-        '
-        Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel1.Controls.Add(Me.cmbUsers)
-        Me.Panel1.Controls.Add(Me.btnSave)
-        Me.Panel1.Controls.Add(Me.txtLocation)
-        Me.Panel1.Controls.Add(Me.Label3)
-        Me.Panel1.Controls.Add(Me.Label2)
-        Me.Panel1.Controls.Add(Me.txtPCName)
-        Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Location = New System.Drawing.Point(12, 12)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(289, 265)
-        Me.Panel1.TabIndex = 0
-        '
-        'cmbUsers
-        '
-        Me.cmbUsers.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
-        Me.cmbUsers.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
-        Me.cmbUsers.FormattingEnabled = True
-        Me.cmbUsers.Location = New System.Drawing.Point(23, 95)
-        Me.cmbUsers.Name = "cmbUsers"
-        Me.cmbUsers.Size = New System.Drawing.Size(248, 23)
-        Me.cmbUsers.TabIndex = 8
-        '
-        'btnSave
-        '
-        Me.btnSave.Location = New System.Drawing.Point(106, 232)
-        Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(75, 23)
-        Me.btnSave.TabIndex = 7
-        Me.btnSave.Text = "Save"
-        Me.btnSave.UseVisualStyleBackColor = True
-        '
-        'txtLocation
-        '
-        Me.txtLocation.Location = New System.Drawing.Point(23, 157)
-        Me.txtLocation.Multiline = True
-        Me.txtLocation.Name = "txtLocation"
-        Me.txtLocation.PlaceholderText = "Enter Location"
-        Me.txtLocation.Size = New System.Drawing.Size(248, 46)
-        Me.txtLocation.TabIndex = 6
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label3.Location = New System.Drawing.Point(3, 139)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(57, 15)
-        Me.Label3.TabIndex = 5
-        Me.Label3.Text = "Location:"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label2.Location = New System.Drawing.Point(3, 74)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(36, 15)
-        Me.Label2.TabIndex = 3
-        Me.Label2.Text = "User:"
-        '
-        'txtPCName
-        '
-        Me.txtPCName.Location = New System.Drawing.Point(23, 30)
-        Me.txtPCName.Name = "txtPCName"
-        Me.txtPCName.ReadOnly = True
-        Me.txtPCName.Size = New System.Drawing.Size(248, 23)
-        Me.txtPCName.TabIndex = 2
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label1.Location = New System.Drawing.Point(3, 12)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(60, 15)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "PC Name:"
-        '
-        'frmDeviceInformation
-        '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(313, 289)
-        Me.Controls.Add(Me.Panel1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
-        Me.MaximizeBox = False
-        Me.MinimizeBox = False
-        Me.Name = "frmDeviceInformation"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Device Information"
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
-        CType(Me.listUsers, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.ResumeLayout(False)
+        components = New ComponentModel.Container()
+        Panel1 = New Panel()
+        cmbOffices = New ComboBox()
+        cmbUsers = New ComboBox()
+        btnSave = New Button()
+        Label3 = New Label()
+        Label2 = New Label()
+        txtPCName = New TextBox()
+        Label1 = New Label()
+        listUsers = New BindingSource(components)
+        Panel1.SuspendLayout()
+        CType(listUsers, ComponentModel.ISupportInitialize).BeginInit()
+        SuspendLayout()
+        ' 
+        ' Panel1
+        ' 
+        Panel1.BorderStyle = BorderStyle.FixedSingle
+        Panel1.Controls.Add(cmbOffices)
+        Panel1.Controls.Add(cmbUsers)
+        Panel1.Controls.Add(btnSave)
+        Panel1.Controls.Add(Label3)
+        Panel1.Controls.Add(Label2)
+        Panel1.Controls.Add(txtPCName)
+        Panel1.Controls.Add(Label1)
+        Panel1.Location = New Point(12, 12)
+        Panel1.Name = "Panel1"
+        Panel1.Size = New Size(289, 238)
+        Panel1.TabIndex = 0
+        ' 
+        ' cmbOffices
+        ' 
+        cmbOffices.AutoCompleteMode = AutoCompleteMode.SuggestAppend
+        cmbOffices.AutoCompleteSource = AutoCompleteSource.ListItems
+        cmbOffices.FormattingEnabled = True
+        cmbOffices.Location = New Point(25, 160)
+        cmbOffices.Name = "cmbOffices"
+        cmbOffices.Size = New Size(248, 23)
+        cmbOffices.TabIndex = 9
+        ' 
+        ' cmbUsers
+        ' 
+        cmbUsers.AutoCompleteMode = AutoCompleteMode.SuggestAppend
+        cmbUsers.AutoCompleteSource = AutoCompleteSource.ListItems
+        cmbUsers.FormattingEnabled = True
+        cmbUsers.Location = New Point(25, 95)
+        cmbUsers.Name = "cmbUsers"
+        cmbUsers.Size = New Size(248, 23)
+        cmbUsers.TabIndex = 8
+        ' 
+        ' btnSave
+        ' 
+        btnSave.Location = New Point(112, 196)
+        btnSave.Name = "btnSave"
+        btnSave.Size = New Size(75, 23)
+        btnSave.TabIndex = 7
+        btnSave.Text = "Save"
+        btnSave.UseVisualStyleBackColor = True
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        Label3.Location = New Point(3, 139)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(57, 15)
+        Label3.TabIndex = 5
+        Label3.Text = "Location:"
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        Label2.Location = New Point(3, 74)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(36, 15)
+        Label2.TabIndex = 3
+        Label2.Text = "User:"
+        ' 
+        ' txtPCName
+        ' 
+        txtPCName.Location = New Point(25, 30)
+        txtPCName.Name = "txtPCName"
+        txtPCName.ReadOnly = True
+        txtPCName.Size = New Size(248, 23)
+        txtPCName.TabIndex = 2
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        Label1.Location = New Point(3, 12)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(60, 15)
+        Label1.TabIndex = 1
+        Label1.Text = "PC Name:"
+        ' 
+        ' frmDeviceInformation
+        ' 
+        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleMode = AutoScaleMode.Font
+        ClientSize = New Size(313, 265)
+        Controls.Add(Panel1)
+        FormBorderStyle = FormBorderStyle.FixedDialog
+        MaximizeBox = False
+        MinimizeBox = False
+        Name = "frmDeviceInformation"
+        StartPosition = FormStartPosition.CenterScreen
+        Text = "Device Information"
+        Panel1.ResumeLayout(False)
+        Panel1.PerformLayout()
+        CType(listUsers, ComponentModel.ISupportInitialize).EndInit()
+        ResumeLayout(False)
 
     End Sub
 
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents txtLocation As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents txtPCName As TextBox
@@ -145,4 +145,5 @@ Partial Class frmDeviceInformation
     Friend WithEvents btnSave As Button
     Friend WithEvents listUsers As BindingSource
     Friend WithEvents cmbUsers As ComboBox
+    Friend WithEvents cmbOffices As ComboBox
 End Class

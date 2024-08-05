@@ -1,6 +1,7 @@
 ﻿
 Imports System.Management
 Imports System.Net.Sockets
+Imports System.Threading.Tasks
 
 'https://www.codeguru.com/visual-basic/obtaining-computer-information-with-visual-basic-net/
 
@@ -15,7 +16,6 @@ Public Class CSystemInformation
         allInfo.Add("5", GetListSysInfo("Win32_VideoController"))
         Return allInfo
     End Function
-
 
     Public Function CheckPorts() As List(Of Dictionary(Of String, String))
         Dim portsInfoList As New List(Of Dictionary(Of String, String))
@@ -46,7 +46,7 @@ Public Class CSystemInformation
             For Each objMng As ManagementObject In mcInfoCol
                 For Each prop As PropertyData In pdInfo
                     Try
-                        If objMng.Properties(prop.Name).Value <> "" Then
+                        If objMng.Properties(prop.Name).Value.ToString.Trim <> "" Then
 
                             Dim encypted_val As String = objMng.Properties(prop.Name).Value
                             Dim encypted_prop As String = prop.Name
@@ -78,13 +78,11 @@ Public Class CSystemInformation
     End Function
     Private Function GetOpenPorts(ByVal portNum As Object) As Boolean
         Dim tcp As New TcpClient
-
         Try
             If tcp.ConnectAsync("127.0.0.1", portNum).Wait(1) Then
                 tcp.Close()
                 Return True
             End If
-
         Catch ex As Exception
 
         End Try
@@ -92,4 +90,5 @@ Public Class CSystemInformation
         tcp.Close()
         Return False
     End Function
+
 End Class
