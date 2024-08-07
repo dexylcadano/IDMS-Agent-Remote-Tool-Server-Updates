@@ -65,6 +65,12 @@ Public Class CAgentAPI
         CRESTAPI.HTTPRequest("v1/pc-network-ports", info, token, headers)
     End Sub
 
+    Public Sub UpdatePCInstalledSoftwares(ByVal info As List(Of Dictionary(Of String, String)), ByVal id As Integer)
+        Dim headers As New Dictionary(Of String, String) From {{"id", id.ToString}}
+
+        CRESTAPI.HTTPRequest("v1/pc-installed-softwares", info, token, headers)
+    End Sub
+
     Public Function GetAllUsers(ByVal newToken As String) As List(Of User)
         Dim users As New List(Of Dictionary(Of String, String))
         Return JsonSerializer.Deserialize(Of List(Of User))(CRESTAPI.HTTPRequest("v1/users?formatting=for_drop_down", Nothing, newToken, Nothing, HTTPMethod.GETREQUEST))

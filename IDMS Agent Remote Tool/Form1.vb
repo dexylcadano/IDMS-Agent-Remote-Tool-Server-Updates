@@ -22,8 +22,9 @@ Public Class frmMain
             agent = CAgentAPI.GetInstance()
 
             pcID = agent.UpdatePCMainInfo(sysInfo.GetListSysInfo())
-            agent.UpdatePCInfo(sysInfo.GetPCInfo(), pcID)
-            agent.UpdatePCPorts(sysInfo.CheckPorts(), pcID)
+            'agent.UpdatePCInfo(sysInfo.GetPCInfo(), pcID)
+            'agent.UpdatePCPorts(sysInfo.CheckPorts(), pcID)
+            agent.UpdatePCInstalledSoftwares(sysInfo.checkInstalledSoftwares(), pcID)
 
             Me.Invoke(Sub() UpdateStatus(True))
         Catch ex As Exception

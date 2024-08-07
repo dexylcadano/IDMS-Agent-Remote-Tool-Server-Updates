@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj": {}
+    "C:\\laragon6\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj": {}
   },
   "projects": {
-    "C:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj": {
+    "C:\\laragon6\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj": {
       "version": "0.0.0.8",
       "restore": {
-        "projectUniqueName": "C:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj",
+        "projectUniqueName": "C:\\laragon6\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj",
         "projectName": "IDMS Agent Remote Tool",
-        "projectPath": "C:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj",
+        "projectPath": "C:\\laragon6\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj",
         "packagesPath": "C:\\Users\\dpcadano\\.nuget\\packages\\",
-        "outputPath": "C:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\obj\\",
+        "outputPath": "C:\\laragon6\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

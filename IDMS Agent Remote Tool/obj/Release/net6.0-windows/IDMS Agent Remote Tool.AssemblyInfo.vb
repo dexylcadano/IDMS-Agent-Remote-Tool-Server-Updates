@@ -14,7 +14,7 @@ Option Explicit On
 Imports System
 Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("IDMS Agent Remote Tool"),  _
- Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
+ Assembly: System.Reflection.AssemblyConfigurationAttribute("Release"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("0.0.0.8"),  _
  Assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.0.8+b0e8acfa5c2ec01ce4a20d3f15190e9222e25d5b"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("IDMS Agent Remote Tool"),  _

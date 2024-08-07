@@ -2,6 +2,8 @@
 Imports System.Management
 Imports System.Net.Sockets
 Imports System.Threading.Tasks
+Imports System.Windows.Forms.VisualStyles.VisualStyleElement
+Imports Microsoft.Win32
 
 'https://www.codeguru.com/visual-basic/obtaining-computer-information-with-visual-basic-net/
 
@@ -19,8 +21,8 @@ Public Class CSystemInformation
 
     Public Function CheckPorts() As List(Of Dictionary(Of String, String))
         Dim portsInfoList As New List(Of Dictionary(Of String, String))
-
-        For i As Integer = 1 To 65535
+        '65535
+        For i As Integer = 1 To 500
             Dim portStatus = GetOpenPorts(i)
 
             If portStatus Then
@@ -89,6 +91,50 @@ Public Class CSystemInformation
 
         tcp.Close()
         Return False
+    End Function
+    Public Function checkInstalledSoftwares() As List(Of Dictionary(Of String, String))
+        Dim itemList As New List(Of Dictionary(Of String, String))
+        Dim installedSoftware = GetInstalledSoftware()
+        For Each software In installedSoftware
+            Dim items As New Dictionary(Of String, String)
+
+            items.Add("software_name", software.Key)
+            items.Add("software_location", software.Value)
+            itemList.Add(items)
+        Next
+
+        'System.Diagnostics.Debug.WriteLine("++++++++++++++++++++")
+        'System.Diagnostics.Debug.WriteLine(itemList)
+    End Function
+
+    Private Function GetInstalledSoftware() As Dictionary(Of String, String)
+        Dim softwareList As New Dictionary(Of String, String)()
+
+        ' Read from both 32-bit and 64-bit registry hives
+        Dim registryPaths As String() = {
+            "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall",
+            "SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall"
+        }
+
+        For Each registryPath In registryPaths
+            Using key As RegistryKey = Registry.LocalMachine.OpenSubKey(registryPath)
+                If key IsNot Nothing Then
+                    For Each subKeyName In key.GetSubKeyNames()
+                        Using subKey As RegistryKey = key.OpenSubKey(subKeyName)
+                            If subKey IsNot Nothing Then
+                                Dim displayName As String = CStr(subKey.GetValue("DisplayName", ""))
+                                Dim installLocation As String = CStr(subKey.GetValue("InstallLocation", ""))
+                                If Not String.IsNullOrEmpty(displayName) Then
+                                    softwareList(displayName) = installLocation
+                                End If
+                            End If
+                        End Using
+                    Next
+                End If
+            End Using
+        Next
+
+        Return softwareList
     End Function
 
 End Class
