@@ -48,3 +48,14 @@ C:\laragon6\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-w
 C:\laragon6\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS Agent Remote Tool.pdb
 C:\laragon6\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS Agent Remote Tool.genruntimeconfig.cache
 C:\laragon6\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\ref\IDMS Agent Remote Tool.dll
+E:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS Agent Remote Tool.vbproj.AssemblyReference.cache
+E:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS_Agent_Remote_Tool.AdminAuth.resources
+E:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS_Agent_Remote_Tool.frmDeviceInformation.resources
+E:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS_Agent_Remote_Tool.frmMain.resources
+E:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS_Agent_Remote_Tool.frmLogin.resources
+E:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS_Agent_Remote_Tool.Resources.resources
+E:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS Agent Remote Tool.vbproj.GenerateResource.cache
+E:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS Agent Remote Tool.GeneratedMSBuildEditorConfig.editorconfig
+E:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS Agent Remote Tool.AssemblyInfoInputs.cache
+E:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS Agent Remote Tool.AssemblyInfo.vb
+E:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\IDMS Agent Remote Tool.vbproj.CoreCompileInputs.cache

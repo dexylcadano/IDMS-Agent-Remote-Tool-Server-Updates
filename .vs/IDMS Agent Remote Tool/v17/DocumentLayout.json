@@ -1,30 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\laragon6\\www\\idms-agent-remote-tool\\",
+  "WorkspaceRootPath": "E:\\laragon\\www\\idms-agent-remote-tool\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|c:\\laragon6\\www\\idms-agent-remote-tool\\idms agent remote tool\\csysteminformation.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|solutionrelative:idms agent remote tool\\csysteminformation.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|e:\\laragon\\www\\idms-agent-remote-tool\\idms agent remote tool\\form1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|solutionrelative:idms agent remote tool\\form1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|c:\\laragon6\\www\\idms-agent-remote-tool\\idms agent remote tool\\cagentapi.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|solutionrelative:idms agent remote tool\\cagentapi.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|e:\\laragon\\www\\idms-agent-remote-tool\\idms agent remote tool\\deviceinformation.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|solutionrelative:idms agent remote tool\\deviceinformation.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|c:\\laragon6\\www\\idms-agent-remote-tool\\idms agent remote tool\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|e:\\laragon\\www\\idms-agent-remote-tool\\idms agent remote tool\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|solutionrelative:idms agent remote tool\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|c:\\laragon6\\www\\idms-agent-remote-tool\\idms agent remote tool\\crestapi.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|e:\\laragon\\www\\idms-agent-remote-tool\\idms agent remote tool\\csysteminformation.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|solutionrelative:idms agent remote tool\\csysteminformation.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|e:\\laragon\\www\\idms-agent-remote-tool\\idms agent remote tool\\cagentapi.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|solutionrelative:idms agent remote tool\\cagentapi.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|e:\\laragon\\www\\idms-agent-remote-tool\\idms agent remote tool\\crestapi.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|solutionrelative:idms agent remote tool\\crestapi.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|c:\\laragon6\\www\\idms-agent-remote-tool\\idms agent remote tool\\deviceinformation.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|e:\\laragon\\www\\idms-agent-remote-tool\\idms agent remote tool\\deviceinformation.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|solutionrelative:idms agent remote tool\\deviceinformation.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|c:\\laragon6\\www\\idms-agent-remote-tool\\idms agent remote tool\\deviceinformation.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|solutionrelative:idms agent remote tool\\deviceinformation.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,15 +38,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "Form1.Designer.vb",
+              "DocumentMoniker": "E:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\Form1.Designer.vb",
+              "RelativeDocumentMoniker": "IDMS Agent Remote Tool\\Form1.Designer.vb",
+              "ToolTip": "E:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\Form1.Designer.vb",
+              "RelativeToolTip": "IDMS Agent Remote Tool\\Form1.Designer.vb",
+              "ViewState": "AQIAAEgAAAAAAAAAAAASwFYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-08-08T07:56:14.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "DeviceInformation.vb [Design]",
-              "DocumentMoniker": "C:\\laragon6\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\DeviceInformation.vb",
+              "DocumentMoniker": "E:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\DeviceInformation.vb",
               "RelativeDocumentMoniker": "IDMS Agent Remote Tool\\DeviceInformation.vb",
-              "ToolTip": "C:\\laragon6\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\DeviceInformation.vb [Design]",
+              "ToolTip": "E:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\DeviceInformation.vb [Design]",
               "RelativeToolTip": "IDMS Agent Remote Tool\\DeviceInformation.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-08-02T07:54:52.086Z",
@@ -50,11 +67,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "DeviceInformation.vb",
-              "DocumentMoniker": "C:\\laragon6\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\DeviceInformation.vb",
+              "DocumentMoniker": "E:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\DeviceInformation.vb",
               "RelativeDocumentMoniker": "IDMS Agent Remote Tool\\DeviceInformation.vb",
-              "ToolTip": "C:\\laragon6\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\DeviceInformation.vb",
+              "ToolTip": "E:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\DeviceInformation.vb",
               "RelativeToolTip": "IDMS Agent Remote Tool\\DeviceInformation.vb",
               "ViewState": "AQIAAA8AAADAAgAAAMA0wCQAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
@@ -63,55 +80,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "CAgentAPI.vb",
-              "DocumentMoniker": "C:\\laragon6\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\CAgentAPI.vb",
+              "DocumentMoniker": "E:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\CAgentAPI.vb",
               "RelativeDocumentMoniker": "IDMS Agent Remote Tool\\CAgentAPI.vb",
-              "ToolTip": "C:\\laragon6\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\CAgentAPI.vb",
+              "ToolTip": "E:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\CAgentAPI.vb",
               "RelativeToolTip": "IDMS Agent Remote Tool\\CAgentAPI.vb",
               "ViewState": "AQIAADcAAAAAAAAAAIAwwEkAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-07-15T08:03:02.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CRESTAPI.vb",
-              "DocumentMoniker": "C:\\laragon6\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\CRESTAPI.vb",
-              "RelativeDocumentMoniker": "IDMS Agent Remote Tool\\CRESTAPI.vb",
-              "ToolTip": "C:\\laragon6\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\CRESTAPI.vb",
-              "RelativeToolTip": "IDMS Agent Remote Tool\\CRESTAPI.vb",
-              "ViewState": "AQIAACsAAAAAAAAAAAAswD8AAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-07-15T08:17:12.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-15T08:03:02.223Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Form1.vb",
-              "DocumentMoniker": "C:\\laragon6\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\Form1.vb",
+              "DocumentMoniker": "E:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\Form1.vb",
               "RelativeDocumentMoniker": "IDMS Agent Remote Tool\\Form1.vb",
-              "ToolTip": "C:\\laragon6\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\Form1.vb",
+              "ToolTip": "E:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\Form1.vb",
               "RelativeToolTip": "IDMS Agent Remote Tool\\Form1.vb",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAgwBoAAAAMAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAMwCUAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-07-15T07:49:36.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-15T07:49:36.619Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CSystemInformation.vb",
-              "DocumentMoniker": "C:\\laragon6\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\CSystemInformation.vb",
-              "RelativeDocumentMoniker": "IDMS Agent Remote Tool\\CSystemInformation.vb",
-              "ToolTip": "C:\\laragon6\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\CSystemInformation.vb",
-              "RelativeToolTip": "IDMS Agent Remote Tool\\CSystemInformation.vb",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAMwHEAAAApAAAA",
+              "DocumentIndex": 5,
+              "Title": "CRESTAPI.vb",
+              "DocumentMoniker": "E:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\CRESTAPI.vb",
+              "RelativeDocumentMoniker": "IDMS Agent Remote Tool\\CRESTAPI.vb",
+              "ToolTip": "E:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\CRESTAPI.vb",
+              "RelativeToolTip": "IDMS Agent Remote Tool\\CRESTAPI.vb",
+              "ViewState": "AQIAACsAAAAAAAAAAAAswD8AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-07-15T07:55:17.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-15T08:17:12.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CSystemInformation.vb",
+              "DocumentMoniker": "E:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\CSystemInformation.vb",
+              "RelativeDocumentMoniker": "IDMS Agent Remote Tool\\CSystemInformation.vb",
+              "ToolTip": "E:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\CSystemInformation.vb",
+              "RelativeToolTip": "IDMS Agent Remote Tool\\CSystemInformation.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-15T07:55:17.783Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
