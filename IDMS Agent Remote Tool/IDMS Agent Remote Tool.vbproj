@@ -8,12 +8,12 @@
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
     <AssemblyName>IDMS Agent Remote Tool</AssemblyName>
-    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
     <OptionCompare>Binary</OptionCompare>
     <ApplicationIcon>complete logo.ico</ApplicationIcon>
-    <Version>0.0.0.8</Version>
-    <AssemblyVersion>0.0.0.8</AssemblyVersion>
-    <FileVersion>0.0.0.8</FileVersion>
+    <Version>0.0.0.9</Version>
+    <AssemblyVersion>0.0.0.9</AssemblyVersion>
+    <FileVersion>0.0.0.9</FileVersion>
     <ImportedNamespaces>System.Data=False,System.Drawing=False,System.Management=False,System.Net.Http=False,System.Windows.Forms=False,Microsoft.VisualBasic=True,System=True,System.Collections=True,System.Collections.Generic=True,System.Diagnostics=True,System.Linq=True,System.Xml.Linq=True,System.Threading.Tasks=True,IDMS Agent Remote Tool=True</ImportedNamespaces>
   </PropertyGroup>
 
@@ -76,5 +76,15 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
   </ItemGroup>
+	<ItemGroup>
+		<Content Include="Resources\Led Gray.png">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+	<ItemGroup>
+		<Content Include="Resources\Led Green.png">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
 
 </Project>

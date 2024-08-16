@@ -1,4 +1,5 @@
-﻿
+﻿Imports System.IO
+Imports System.IO.Compression
 Imports System.Management
 Imports System.Net.Sockets
 Imports System.Threading.Tasks
@@ -21,8 +22,8 @@ Public Class CSystemInformation
 
     Public Function CheckPorts() As List(Of Dictionary(Of String, String))
         Dim portsInfoList As New List(Of Dictionary(Of String, String))
-        '65535
-        For i As Integer = 1 To 500
+
+        For i As Integer = 1 To 65535
             Dim portStatus = GetOpenPorts(i)
 
             If portStatus Then
@@ -94,47 +95,41 @@ Public Class CSystemInformation
     End Function
     Public Function checkInstalledSoftwares() As List(Of Dictionary(Of String, String))
         Dim itemList As New List(Of Dictionary(Of String, String))
+
         Dim installedSoftware = GetInstalledSoftware()
         For Each software In installedSoftware
             Dim items As New Dictionary(Of String, String)
-
-            items.Add("software_name", software.Key)
-            items.Add("software_location", software.Value)
+            items.Add("software_name", software.Value)
             itemList.Add(items)
         Next
-
-        'System.Diagnostics.Debug.WriteLine("++++++++++++++++++++")
-        'System.Diagnostics.Debug.WriteLine(itemList)
+        Return itemList
     End Function
 
     Private Function GetInstalledSoftware() As Dictionary(Of String, String)
         Dim softwareList As New Dictionary(Of String, String)()
-
-        ' Read from both 32-bit and 64-bit registry hives
         Dim registryPaths As String() = {
             "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall",
             "SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall"
         }
-
-        For Each registryPath In registryPaths
-            Using key As RegistryKey = Registry.LocalMachine.OpenSubKey(registryPath)
-                If key IsNot Nothing Then
-                    For Each subKeyName In key.GetSubKeyNames()
-                        Using subKey As RegistryKey = key.OpenSubKey(subKeyName)
-                            If subKey IsNot Nothing Then
-                                Dim displayName As String = CStr(subKey.GetValue("DisplayName", ""))
-                                Dim installLocation As String = CStr(subKey.GetValue("InstallLocation", ""))
-                                If Not String.IsNullOrEmpty(displayName) Then
-                                    softwareList(displayName) = installLocation
+        Try
+            For Each registryPath In registryPaths
+                Using key As RegistryKey = Registry.LocalMachine.OpenSubKey(registryPath)
+                    If key IsNot Nothing Then
+                        For Each subKeyName In key.GetSubKeyNames()
+                            Using subKey As RegistryKey = key.OpenSubKey(subKeyName)
+                                If subKey IsNot Nothing Then
+                                    Dim displayName As String = CStr(subKey.GetValue("DisplayName", ""))
+                                    If Not String.IsNullOrEmpty(displayName) Then
+                                        softwareList(displayName) = displayName
+                                    End If
                                 End If
-                            End If
-                        End Using
-                    Next
-                End If
-            End Using
-        Next
-
+                            End Using
+                        Next
+                    End If
+                End Using
+            Next
+        Catch ex As Exception
+        End Try
         Return softwareList
     End Function
-
 End Class

@@ -1,5 +1,5 @@
 is_global = true
-build_property.ApplicationManifest = My Project\app.manifest
+build_property.ApplicationManifest = app.manifest
 build_property.StartupObject = IDMS_Agent_Remote_Tool.frmMain
 build_property.ApplicationDefaultFont = 
 build_property.ApplicationHighDpiMode = 
@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = IDMS_Agent_Remote_Tool
-build_property.ProjectDir = C:\laragon6\www\idms-agent-remote-tool\IDMS Agent Remote Tool\
+build_property.ProjectDir = E:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

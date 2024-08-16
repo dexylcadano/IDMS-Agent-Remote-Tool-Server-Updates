@@ -55,7 +55,7 @@ Partial Class frmMain
         Panel1.Font = New Font("Segoe UI", 9F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point)
         Panel1.Location = New Point(12, 12)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(360, 105)
+        Panel1.Size = New Size(360, 98)
         Panel1.TabIndex = 0
         ' 
         ' PictureBox3
@@ -117,7 +117,7 @@ Partial Class frmMain
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(384, 126)
+        ClientSize = New Size(384, 115)
         Controls.Add(Panel1)
         FormBorderStyle = FormBorderStyle.FixedDialog
         Icon = CType(resources.GetObject("$this.Icon"), Icon)

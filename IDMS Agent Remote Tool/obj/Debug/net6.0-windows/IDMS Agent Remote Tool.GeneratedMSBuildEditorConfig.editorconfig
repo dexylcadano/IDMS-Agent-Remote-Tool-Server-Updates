@@ -1,5 +1,5 @@
 is_global = true
-build_property.ApplicationManifest = My Project\app.manifest
+build_property.ApplicationManifest = app.manifest
 build_property.StartupObject = IDMS_Agent_Remote_Tool.frmMain
 build_property.ApplicationDefaultFont = 
 build_property.ApplicationHighDpiMode = 
