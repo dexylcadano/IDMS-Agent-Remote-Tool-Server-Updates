@@ -7,24 +7,33 @@ Imports System.Threading
 Public Class frmMain
     Private Const VersionUrl As String = "https://git.dswd.gov.ph/dpcadano/idms-agent-remote-tool-server-updates/-/raw/main/Version.txt"
     Private Const DownloadUrl As String = "https://git.dswd.gov.ph/dpcadano/idms-agent-remote-tool-server-updates/-/raw/main/IDMSAgentRemoteToolSetup.zip"
-    Private Const CurrentVersion As String = "0.0.0.9"
+    Private Const CurrentVersion As String = "0.0.0.8"
 
     Private sysInfo As New CSystemInformation
     Public Property pcID As Integer = 0
     Private agent As CAgentAPI
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim newUpdate = CheckForUpdates()
+        Try
+            Dim client1 As New HttpClient()
 
-        If newUpdate Then
-            Dim updater As New frmMain()
-            updater.CheckForUpdates()
-        Else
-            Me.Hide()
-            Me.Text = My.Application.Info.AssemblyName & " Beta v" & My.Application.Info.Version.ToString
-            Dim scanThread As Thread = New Thread(AddressOf Scan)
-            scanThread.Start()
-        End If
+            Dim latestVersion As String = client1.GetStringAsync(VersionUrl).Result.Trim()
+
+            If latestVersion <> CurrentVersion Then
+                Dim result As DialogResult = MessageBox.Show($"A new version ({latestVersion}) is available. Would you like to update?", "Update Available", MessageBoxButtons.YesNo)
+
+                If result = DialogResult.Yes Then
+                    DownloadUpdate()
+                End If
+            Else
+                Me.Hide()
+                Me.Text = My.Application.Info.AssemblyName & " Beta v" & My.Application.Info.Version.ToString
+                Dim scanThread As Thread = New Thread(AddressOf Scan)
+                scanThread.Start()
+            End If
+        Catch ex As Exception
+            MessageBox.Show("Error checking for updates: " & ex.Message)
+        End Try
     End Sub
 
     Private Sub Scan()
@@ -84,25 +93,6 @@ Public Class frmMain
         End If
     End Sub
 
-    Private Function CheckForUpdates() As Boolean
-        Try
-            Dim client1 As New HttpClient()
-
-            Dim latestVersion As String = client1.GetStringAsync(VersionUrl).Result.Trim()
-
-            If latestVersion <> CurrentVersion Then
-                Dim result As DialogResult = MessageBox.Show($"A new version ({latestVersion}) is available. Would you like to update?", "Update Available", MessageBoxButtons.YesNo)
-
-                If result = DialogResult.Yes Then
-                    DownloadUpdate()
-                    Return True
-                End If
-            End If
-        Catch ex As Exception
-            MessageBox.Show("Error checking for updates: " & ex.Message)
-        End Try
-        Return False
-    End Function
     Private Async Sub DownloadUpdate()
         Try
             If File.Exists(".\IDMSAgentRemoteToolSetup.msi") Then

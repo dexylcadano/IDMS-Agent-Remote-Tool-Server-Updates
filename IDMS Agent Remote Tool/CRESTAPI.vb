@@ -19,7 +19,7 @@ Public Class CRESTAPI
     'Public Const agentBaseUrl = "http://public_html.test/api/idms-agent/"
     Public Const agentBaseUrl = "http://172.31.137.67/api/idms-agent/"
 #Else
-    'Public Const agentBaseUrl = "https://idms-fo8-app.com/api/idms-agent/"
+    Public Const agentBaseUrl = "https://idms-fo8-app.com/api/idms-agent/"
 #End If
     Public Const maxRetry = 3
 

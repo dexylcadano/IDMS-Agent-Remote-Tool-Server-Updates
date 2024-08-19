@@ -182,7 +182,7 @@
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_A54A380051FB4DBBA0B2C42BCF8BB87E"
             {
-            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[LocalAppDataFolder][Manufacturer]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -219,8 +219,8 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:IDMSAgentRemoteToolSetup"
-        "ProductCode" = "8:{4F021D79-EE08-4B25-BD3F-02AA21DC68C4}"
-        "PackageCode" = "8:{835A9733-D7DE-4661-B5FA-1BAD2982A191}"
+        "ProductCode" = "8:{D5C0FDA8-67CE-44B2-88E0-CBA248D55901}"
+        "PackageCode" = "8:{B440625B-624B-43DA-9291-5F34315228F8}"
         "UpgradeCode" = "8:{AFB0C388-8BAD-4F8F-B43F-F97B7E5FC844}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -340,6 +340,20 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_158720E6B41B41CA8D335AAA6187E591"
+            {
+            "Name" = "8:IDMS Agent Remote Tool"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_76E9631941194E4AA587D434AB0C9EC4"
+            "Folder" = "8:_F4EA14889EBE42C79377219705F0E115"
+            "WorkingFolder" = "8:_A54A380051FB4DBBA0B2C42BCF8BB87E"
+            "Icon" = "8:_BEFE5D9D2F2B4D71A128CF6B9DB3C136"
+            "Feature" = "8:"
+            }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_B921A31BC31E40FFA7977EF46A9F140B"
             {
             "Name" = "8:IDMS Agent Remote Tool"
@@ -755,7 +769,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_76E9631941194E4AA587D434AB0C9EC4"
             {
-            "SourcePath" = "8:..\\IDMS Agent Remote Tool\\obj\\Release\\net6.0-windows\\apphost.exe"
+            "SourcePath" = "8:..\\IDMS Agent Remote Tool\\obj\\Debug\\net6.0-windows\\apphost.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_A54A380051FB4DBBA0B2C42BCF8BB87E"
