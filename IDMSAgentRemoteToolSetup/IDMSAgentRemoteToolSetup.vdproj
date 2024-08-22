@@ -219,8 +219,8 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:IDMSAgentRemoteToolSetup"
-        "ProductCode" = "8:{D5C0FDA8-67CE-44B2-88E0-CBA248D55901}"
-        "PackageCode" = "8:{B440625B-624B-43DA-9291-5F34315228F8}"
+        "ProductCode" = "8:{887DA0F2-546C-401F-B8C1-1D9544629CD5}"
+        "PackageCode" = "8:{D579FE4A-1526-42E4-B663-2CA0354BCE2A}"
         "UpgradeCode" = "8:{AFB0C388-8BAD-4F8F-B43F-F97B7E5FC844}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"

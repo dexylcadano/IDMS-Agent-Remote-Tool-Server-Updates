@@ -3,6 +3,7 @@ Imports System.DirectoryServices
 Imports System.IO
 Imports System.IO.Compression
 Imports System.Net.NetworkInformation
+Imports System.Security
 Imports System.Threading
 Public Class frmMain
     Private Const VersionUrl As String = "https://git.dswd.gov.ph/dpcadano/idms-agent-remote-tool-server-updates/-/raw/main/Version.txt"
@@ -24,16 +25,23 @@ Public Class frmMain
 
                 If result = DialogResult.Yes Then
                     DownloadUpdate()
+                Else
+                    loadStartup()
                 End If
             Else
-                Me.Hide()
-                Me.Text = My.Application.Info.AssemblyName & " Beta v" & My.Application.Info.Version.ToString
-                Dim scanThread As Thread = New Thread(AddressOf Scan)
-                scanThread.Start()
+                loadStartup()
             End If
         Catch ex As Exception
             MessageBox.Show("Error checking for updates: " & ex.Message)
+            loadStartup()
         End Try
+    End Sub
+
+    Private Sub loadStartup()
+        Me.Hide()
+        Me.Text = My.Application.Info.AssemblyName & " Beta v" & My.Application.Info.Version.ToString
+        Dim scanThread As Thread = New Thread(AddressOf Scan)
+        scanThread.Start()
     End Sub
 
     Private Sub Scan()
@@ -94,6 +102,7 @@ Public Class frmMain
     End Sub
 
     Private Async Sub DownloadUpdate()
+        Dim LDAPAuthentication = ActiveDirectoryAuthentication()
         Try
             If File.Exists(".\IDMSAgentRemoteToolSetup.msi") Then
                 File.Delete(".\IDMSAgentRemoteToolSetup.msi")
@@ -113,14 +122,9 @@ Public Class frmMain
             Dim extractPath As String = ".\"
             ZipFile.ExtractToDirectory(zipPath, extractPath)
 
-            Dim process As New Process()
-            process.StartInfo.FileName = "msiexec.exe"
-            process.StartInfo.Arguments = "/i IDMSAgentRemoteToolSetup.msi"
-
-            MessageBox.Show("Update downloaded. The application will now close for the update to be applied.", "Update Downloaded")
-            Application.Exit()
-            process.Start()
-
+            If LDAPAuthentication Then
+                Application.Exit()
+            End If
         Catch ex As HttpRequestException
             MessageBox.Show("Error downloading the update: " & ex.Message)
         Catch ex As UnauthorizedAccessException
@@ -130,4 +134,93 @@ Public Class frmMain
         End Try
     End Sub
 
+    Private Function ActiveDirectoryAuthentication() As Boolean
+        Dim path = "LDAP://entdswd.local"
+        'Dim user = "IDMS_Admin"
+        'Dim pass = "1dm$@4dm1Nb$$muD"
+        Dim user = "icts"
+        Dim pass = "optimus455pdr0w"
+        Dim domain As String = "entdswd.local"
+        Dim de As New DirectoryEntry(path, user, pass, AuthenticationTypes.Secure)
+        Try
+            Dim ds As DirectorySearcher = New DirectorySearcher(de)
+            ds.Filter = $"(sAMAccountName={user})"
+            Dim result As SearchResult = ds.FindOne()
+
+            Dim isAdmin = IsUserAdminInLDAP(de, result)
+
+            If isAdmin Then
+                InstallApplication(user, pass, domain)
+                Return True
+            Else
+                MessageBox.Show("User is authenticated but does not have administrative privileges.")
+            End If
+        Catch ex As Exception
+            MessageBox.Show("Authentication failed: " & ex.Message)
+        End Try
+        Return False
+    End Function
+    Private Function IsUserAdminInLDAP(de As DirectoryEntry, result As SearchResult) As Boolean
+        Dim adminGroupDn As String = "CN=08_OU_Administrators,OU=Administrator Identities,OU=Restricted,OU=FO8,DC=ENTDSWD,DC=LOCAL"
+        Try
+            For Each group As String In result.Properties("memberOf")
+                If group.Contains(adminGroupDn) Then
+                    Return True
+                End If
+            Next
+        Catch ex As Exception
+            MessageBox.Show("Error checking admin privileges: " & ex.Message)
+        End Try
+
+        Return False
+    End Function
+    Private Sub InstallApplication(userName As String, password As String, domain As String)
+        Try
+            Dim localMsiPath As String = "C:\Temp\IDMSAgentRemoteToolSetup.msi"
+            If Not System.IO.File.Exists(localMsiPath) Then
+                System.IO.File.Copy("C:\Users\dpcadano\AppData\Local\DSWD Field Office VIII\IDMSAgentRemoteToolSetup\IDMSAgentRemoteToolSetup.msi", localMsiPath, True)
+            End If
+
+            Dim securePassword As New SecureString()
+            For Each c As Char In password
+                securePassword.AppendChar(c)
+            Next
+
+            Dim startInfo As New ProcessStartInfo()
+            startInfo.FileName = "msiexec.exe"
+            startInfo.Arguments = "/i """ & localMsiPath & """ /quiet" ' /quiet runs the installer in silent mode
+            startInfo.UseShellExecute = False
+            startInfo.UserName = userName
+            startInfo.Password = securePassword
+            startInfo.Domain = domain
+
+            ' startInfo.WorkingDirectory = "C:\Users\dpcadano\AppData\Local\DSWD Field Office VIII\IDMSAgentRemoteToolSetup"
+
+            Dim process As Process = Process.Start(startInfo)
+            process.WaitForExit()
+
+            If process.ExitCode = 0 Then
+                MessageBox.Show("Installation completed successfully.")
+            Else
+                MessageBox.Show($"Installation failed. Errors: {process.ExitCode}")
+            End If
+
+            'Dim process As New Process()
+            'process.StartInfo.FileName = "msiexec.exe"
+            'process.StartInfo.Arguments = "/i IDMSAgentRemoteToolSetup.msi"
+            'process.StartInfo.UseShellExecute = False
+            'process.StartInfo.UserName = userName
+            'process.StartInfo.Password = securePassword
+            'process.StartInfo.Domain = domain
+            'process.StartInfo.WorkingDirectory = Application.StartupPath
+            'process.StartInfo.RedirectStandardError = True
+            'process.StartInfo.RedirectStandardOutput = True
+            'Process.Start()
+            'Process.WaitForExit()
+            'MessageBox.Show("Installation completed.")
+
+        Catch ex As Exception
+            MessageBox.Show("Failed to install: " & ex.Message)
+        End Try
+    End Sub
 End Class
