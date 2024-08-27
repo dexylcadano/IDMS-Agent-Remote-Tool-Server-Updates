@@ -136,10 +136,10 @@ Public Class frmMain
 
     Private Function ActiveDirectoryAuthentication() As Boolean
         Dim path = "LDAP://entdswd.local"
-        'Dim user = "IDMS_Admin"
-        'Dim pass = "1dm$@4dm1Nb$$muD"
-        Dim user = "icts"
-        Dim pass = "optimus455pdr0w"
+        Dim user = "IDMS_Admin"
+        Dim pass = "1dm$@4dm1Nb$$muD"
+        'Dim user = "icts"
+        'Dim pass = "optimasDrOwp455W0rd!"
         Dim domain As String = "entdswd.local"
         Dim de As New DirectoryEntry(path, user, pass, AuthenticationTypes.Secure)
         Try
@@ -176,48 +176,34 @@ Public Class frmMain
     End Function
     Private Sub InstallApplication(userName As String, password As String, domain As String)
         Try
-            Dim localMsiPath As String = "C:\Temp\IDMSAgentRemoteToolSetup.msi"
-            If Not System.IO.File.Exists(localMsiPath) Then
-                System.IO.File.Copy("C:\Users\dpcadano\AppData\Local\DSWD Field Office VIII\IDMSAgentRemoteToolSetup\IDMSAgentRemoteToolSetup.msi", localMsiPath, True)
-            End If
-
             Dim securePassword As New SecureString()
             For Each c As Char In password
                 securePassword.AppendChar(c)
             Next
 
+            Dim setupFilePath As String = System.IO.Path.Combine(Application.StartupPath, "setup.exe")
+
             Dim startInfo As New ProcessStartInfo()
             startInfo.FileName = "msiexec.exe"
-            startInfo.Arguments = "/i """ & localMsiPath & """ /quiet" ' /quiet runs the installer in silent mode
+            startInfo.Arguments = $"/i ""{setupFilePath}"""
             startInfo.UseShellExecute = False
             startInfo.UserName = userName
             startInfo.Password = securePassword
             startInfo.Domain = domain
 
-            ' startInfo.WorkingDirectory = "C:\Users\dpcadano\AppData\Local\DSWD Field Office VIII\IDMSAgentRemoteToolSetup"
+            startInfo.WorkingDirectory = Application.StartupPath
 
             Dim process As Process = Process.Start(startInfo)
+
             process.WaitForExit()
+
+            Dim errors As String = process.StandardError.ReadToEnd()
 
             If process.ExitCode = 0 Then
                 MessageBox.Show("Installation completed successfully.")
             Else
-                MessageBox.Show($"Installation failed. Errors: {process.ExitCode}")
+                MessageBox.Show($"Installation failed. Errors: {errors}")
             End If
-
-            'Dim process As New Process()
-            'process.StartInfo.FileName = "msiexec.exe"
-            'process.StartInfo.Arguments = "/i IDMSAgentRemoteToolSetup.msi"
-            'process.StartInfo.UseShellExecute = False
-            'process.StartInfo.UserName = userName
-            'process.StartInfo.Password = securePassword
-            'process.StartInfo.Domain = domain
-            'process.StartInfo.WorkingDirectory = Application.StartupPath
-            'process.StartInfo.RedirectStandardError = True
-            'process.StartInfo.RedirectStandardOutput = True
-            'Process.Start()
-            'Process.WaitForExit()
-            'MessageBox.Show("Installation completed.")
 
         Catch ex As Exception
             MessageBox.Show("Failed to install: " & ex.Message)
