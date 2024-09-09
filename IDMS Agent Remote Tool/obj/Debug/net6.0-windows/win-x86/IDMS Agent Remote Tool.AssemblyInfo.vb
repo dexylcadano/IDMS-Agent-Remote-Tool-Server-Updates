@@ -15,15 +15,11 @@ Imports System
 Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("IDMS Agent Remote Tool"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
- Assembly: System.Reflection.AssemblyFileVersionAttribute("0.0.0.8"),  _
-<<<<<<< HEAD
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.0.8+9c85bf11c48b1fc2c94c11a0b5b94e715948a2d1"),  _
-=======
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.0.8+a5a7400a967a760065a08ae945264cf125bf7d8f"),  _
->>>>>>> parent of 803313e (Ongoing development for LDAP Authentication)
+ Assembly: System.Reflection.AssemblyFileVersionAttribute("0.0.0.9"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.0.9+0647b418bfcfef36813c81e86737e7e82acaa919"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("IDMS Agent Remote Tool"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("IDMS Agent Remote Tool"),  _
- Assembly: System.Reflection.AssemblyVersionAttribute("0.0.0.8"),  _
+ Assembly: System.Reflection.AssemblyVersionAttribute("0.0.0.9"),  _
  Assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0"),  _
  Assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")> 
 
