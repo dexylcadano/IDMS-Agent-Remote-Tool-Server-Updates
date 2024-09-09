@@ -30,7 +30,3 @@ E:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-wi
 E:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\win-x86\IDMS Agent Remote Tool.pdb
 E:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\win-x86\IDMS Agent Remote Tool.genruntimeconfig.cache
 E:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\win-x86\ref\IDMS Agent Remote Tool.dll
-E:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Debug\net6.0-windows\win-x86\IDMS Agent Remote Tool.dll.manifest
-E:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\bin\Debug\net6.0-windows\win-x86\IDMS Agent Remote Tool.application
-E:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\win-x86\IDMS Agent Remote Tool.dll.manifest
-E:\laragon\www\idms-agent-remote-tool\IDMS Agent Remote Tool\obj\Debug\net6.0-windows\win-x86\IDMS Agent Remote Tool.application

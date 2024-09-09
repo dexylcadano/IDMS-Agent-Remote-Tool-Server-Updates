@@ -15,11 +15,11 @@ Imports System
 Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("IDMS Agent Remote Tool"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Release"),  _
- Assembly: System.Reflection.AssemblyFileVersionAttribute("0.0.0.8"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.0.8+5478020f7701c2fe28ee6990fd19ec90f407646b"),  _
+ Assembly: System.Reflection.AssemblyFileVersionAttribute("0.0.0.9"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.0.9+c94e87f08896e1b6d81820f5e7931e12703f9b57"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("IDMS Agent Remote Tool"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("IDMS Agent Remote Tool"),  _
- Assembly: System.Reflection.AssemblyVersionAttribute("0.0.0.8"),  _
+ Assembly: System.Reflection.AssemblyVersionAttribute("0.0.0.9"),  _
  Assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0"),  _
  Assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")> 
 
