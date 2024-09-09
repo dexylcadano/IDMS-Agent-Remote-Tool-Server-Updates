@@ -219,13 +219,8 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:IDMSAgentRemoteToolSetup"
-<<<<<<< HEAD
         "ProductCode" = "8:{4AC354A7-E071-4F30-8A70-97D10543DFE3}"
         "PackageCode" = "8:{3AC6E097-78F4-49D6-B09D-6114976B6AB9}"
-=======
-        "ProductCode" = "8:{887DA0F2-546C-401F-B8C1-1D9544629CD5}"
-        "PackageCode" = "8:{D579FE4A-1526-42E4-B663-2CA0354BCE2A}"
->>>>>>> parent of 803313e (Ongoing development for LDAP Authentication)
         "UpgradeCode" = "8:{AFB0C388-8BAD-4F8F-B43F-F97B7E5FC844}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
