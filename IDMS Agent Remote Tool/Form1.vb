@@ -1,41 +1,16 @@
 ﻿Imports System.ComponentModel
-Imports System.DirectoryServices
-Imports System.DirectoryServices.ActiveDirectory
-Imports System.IO
-Imports System.IO.Compression
-Imports System.Net.NetworkInformation
-Imports System.Security
-Imports System.Security.Principal
 Imports System.Threading
-Imports System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel
 Public Class frmMain
     Private Const VersionUrl As String = "https://git.dswd.gov.ph/dpcadano/idms-agent-remote-tool-server-updates/-/raw/main/Version.txt"
     Private Const DownloadUrl As String = "https://git.dswd.gov.ph/dpcadano/idms-agent-remote-tool-server-updates/-/raw/main/IDMSAgentRemoteToolSetup.zip"
-    Private Const CurrentVersion As String = "0.0.0.14"
+    Private Const CurrentVersion As String = "0.0.0.8"
 
     Private sysInfo As New CSystemInformation
     Public Property pcID As Integer = 0
     Private agent As CAgentAPI
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Try
-            Dim client1 As New HttpClient()
-
-            Dim latestVersion As String = client1.GetStringAsync(VersionUrl).Result.Trim()
-
-            If latestVersion <> CurrentVersion Then
-                Dim result As DialogResult = MessageBox.Show($"A new version ({latestVersion}) is available. Would you like to update?", "Update Available", MessageBoxButtons.YesNo)
-
-                If result = DialogResult.Yes Then
-                    DownloadUpdate()
-                End If
-            Else
-                loadStartup()
-            End If
-        Catch ex As Exception
-            MessageBox.Show("Error checking for updates: " & ex.Message)
-            loadStartup()
-        End Try
+        loadStartup()
     End Sub
 
     Private Sub loadStartup()
@@ -101,151 +76,4 @@ Public Class frmMain
             AdminAuth.Show()
         End If
     End Sub
-
-    Private Async Sub DownloadUpdate()
-        Try
-            If File.Exists(".\IDMSAgentRemoteToolSetup.msi") Then
-                File.Delete(".\IDMSAgentRemoteToolSetup.msi")
-                File.Delete(".\IDMSAgentRemoteToolSetup.zip")
-            End If
-
-            Dim downloadPath As String = Path.Combine(Application.StartupPath, "IDMSAgentRemoteToolSetup.zip")
-
-            Using client As New HttpClient()
-                Using response As HttpResponseMessage = Await client.GetAsync(DownloadUrl)
-                    response.EnsureSuccessStatusCode()
-                    Dim fileBytes As Byte() = Await response.Content.ReadAsByteArrayAsync()
-                    File.WriteAllBytes(downloadPath, fileBytes)
-                End Using
-            End Using
-
-            Dim zipPath As String = ".\IDMSAgentRemoteToolSetup.zip"
-            Dim extractPath As String = ".\"
-            ZipFile.ExtractToDirectory(zipPath, extractPath)
-
-            Application.Exit()
-
-
-            If ActiveDirectoryAuthentication() Then
-                InstallApplication()
-            End If
-        Catch ex As HttpRequestException
-            MessageBox.Show("Error downloading the update: " & ex.Message)
-        Catch ex As UnauthorizedAccessException
-            MessageBox.Show("Error: No permission to write to the download path. " & ex.Message)
-        Catch ex As Exception
-            MessageBox.Show("An unexpected error occurred: " & ex.Message)
-        End Try
-    End Sub
-
-    Private Function ActiveDirectoryAuthentication() As Boolean
-        Dim path = "LDAP://entdswd.local"
-        Dim user = "IDMS_Admin"
-        Dim pass = "1dm$@4dm1Nb$$muD"
-        Dim de As New DirectoryEntry(path, user, pass, AuthenticationTypes.Secure)
-        Try
-            Dim ds As DirectorySearcher = New DirectorySearcher(de)
-            ds.Filter = $"(sAMAccountName={user})"
-            Dim result As SearchResult = ds.FindOne()
-
-            Dim isAdmin = IsUserAdminInLDAP(de, result)
-            If isAdmin Then
-                Return True
-            Else
-                MessageBox.Show("User is authenticated but does not have administrative privileges.")
-            End If
-        Catch ex As Exception
-            MessageBox.Show("Authentication failed: " & ex.Message)
-        End Try
-        Return False
-    End Function
-    Private Function IsUserAdminInLDAP(de As DirectoryEntry, result As SearchResult) As Boolean
-        Dim adminGroupDn As String = "CN=08_OU_Administrators,OU=Administrator Identities,OU=Restricted,OU=FO8,DC=ENTDSWD,DC=LOCAL"
-        Try
-            For Each group As String In result.Properties("memberOf")
-                If group.Contains(adminGroupDn) Then
-                    Return True
-                End If
-            Next
-        Catch ex As Exception
-            MessageBox.Show("Error checking admin privileges: " & ex.Message)
-        End Try
-
-        Return False
-    End Function
-    Private Sub InstallApplication()
-        Dim isElevated As Boolean = TryIsElevated()
-        Dim userName = ".\icts"
-        Dim password = "optimasDr0wp455W0rd!"
-        Dim domain = "entdswd.local"
-
-        Try
-            Dim securePassword As New SecureString()
-            For Each c As Char In password
-                securePassword.AppendChar(c)
-            Next
-
-            Dim process As New Process()
-            process.StartInfo.FileName = "msiexec.exe"
-            process.StartInfo.Arguments = "/i IDMSAgentRemoteToolSetup.msi"
-            If Not isElevated Then
-                process.StartInfo.Verb = "runas"
-                process.StartInfo.UseShellExecute = False
-                process.StartInfo.UserName = userName
-                process.StartInfo.Password = securePassword
-                process.StartInfo.Domain = domain
-            End If
-            process.Start()
-        Catch ex As Exception
-            MessageBox.Show("Failed to install: " & ex.Message)
-        End Try
-
-
-
-        'Try
-        '    Dim username = "icts"
-        '    Dim password = "Dr0woptimus455P"
-        '    Dim domain As String = "entdswd.local"
-
-        '    Dim securePassword As New SecureString()
-        '    For Each c As Char In password
-        '        securePassword.AppendChar(c)
-        '    Next
-
-        '    Dim startInfo As New ProcessStartInfo()
-        '    startInfo.FileName = "msiexec.exe"
-        '    startInfo.Arguments = "/i IDMSAgentRemoteToolSetup.msi"
-        '    startInfo.UseShellExecute = False
-        '    startInfo.UserName = username
-        '    startInfo.Password = securePassword
-        '    startInfo.Domain = domain
-
-        '    startInfo.WorkingDirectory = Application.StartupPath
-
-        '    Dim process As Process = Process.Start(startInfo)
-
-        '    process.WaitForExit()
-
-        '    Dim errors As String = process.StandardError.ReadToEnd()
-
-        '    If process.ExitCode = 0 Then
-        '        MessageBox.Show("Installation completed successfully.")
-        '    Else
-        '        MessageBox.Show($"Installation failed. Errors: {errors}")
-        '    End If
-
-        'Catch ex As Exception
-        '    MessageBox.Show("Failed to install: " & ex.Message)
-        'End Try
-    End Sub
-
-    Private Shared Function TryIsElevated() As Boolean
-        Dim identity As WindowsIdentity = WindowsIdentity.GetCurrent()
-        Try
-            Dim principal As WindowsPrincipal = New WindowsPrincipal(identity)
-            Return principal.IsInRole(WindowsBuiltInRole.Administrator)
-        Catch ex As SecurityException
-            Return False
-        End Try
-    End Function
 End Class

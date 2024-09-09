@@ -9,10 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|e:\\laragon\\www\\idms-agent-remote-tool\\idms agent remote tool\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|solutionrelative:idms agent remote tool\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|e:\\laragon\\www\\idms-agent-remote-tool\\idms agent remote tool\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{09CCEE01-7072-4C68-BDB0-05E81622B263}|IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj|solutionrelative:idms agent remote tool\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,7 +28,7 @@
               "RelativeDocumentMoniker": "IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj",
               "ToolTip": "E:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj",
               "RelativeToolTip": "IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
               "WhenOpened": "2024-08-28T02:20:47.001Z",
               "EditorCaption": ""
@@ -45,22 +41,10 @@
               "RelativeDocumentMoniker": "IDMS Agent Remote Tool\\Form1.vb",
               "ToolTip": "E:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\Form1.vb",
               "RelativeToolTip": "IDMS Agent Remote Tool\\Form1.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA2AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-08-27T03:52:51.024Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.vb [Design]",
-              "DocumentMoniker": "E:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\Form1.vb",
-              "RelativeDocumentMoniker": "IDMS Agent Remote Tool\\Form1.vb",
-              "ToolTip": "E:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\Form1.vb [Design]",
-              "RelativeToolTip": "IDMS Agent Remote Tool\\Form1.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-08-27T03:52:43.49Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

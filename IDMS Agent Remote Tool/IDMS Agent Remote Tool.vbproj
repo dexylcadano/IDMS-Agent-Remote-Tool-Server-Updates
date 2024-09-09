@@ -1,5 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0-windows</TargetFramework>
@@ -11,9 +10,9 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <OptionCompare>Binary</OptionCompare>
     <ApplicationIcon>complete logo.ico</ApplicationIcon>
-    <Version>0.0.0.14</Version>
-    <AssemblyVersion>0.0.0.14</AssemblyVersion>
-    <FileVersion>0.0.0.14</FileVersion>
+    <Version>0.0.0.8</Version>
+    <AssemblyVersion>0.0.0.8</AssemblyVersion>
+    <FileVersion>0.0.0.8</FileVersion>
     <ImportedNamespaces>System.Data=False,System.Drawing=False,System.Management=False,System.Net.Http=False,System.Windows.Forms=False,Microsoft.VisualBasic=True,System=True,System.Collections=True,System.Collections.Generic=True,System.Diagnostics=True,System.Linq=True,System.Xml.Linq=True,System.Threading.Tasks=True,IDMS Agent Remote Tool=True</ImportedNamespaces>
   </PropertyGroup>
 
