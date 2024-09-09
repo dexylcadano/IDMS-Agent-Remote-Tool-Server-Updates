@@ -1,10 +1,6 @@
 ﻿Imports System.ComponentModel
 Imports System.Threading
 Public Class frmMain
-    Private Const VersionUrl As String = "https://git.dswd.gov.ph/dpcadano/idms-agent-remote-tool-server-updates/-/raw/main/Version.txt"
-    Private Const DownloadUrl As String = "https://git.dswd.gov.ph/dpcadano/idms-agent-remote-tool-server-updates/-/raw/main/IDMSAgentRemoteToolSetup.zip"
-    Private Const CurrentVersion As String = "0.0.0.8"
-
     Private sysInfo As New CSystemInformation
     Public Property pcID As Integer = 0
     Private agent As CAgentAPI
