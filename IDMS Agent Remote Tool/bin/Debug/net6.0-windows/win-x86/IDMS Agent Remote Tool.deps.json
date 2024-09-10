@@ -7,7 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {},
     ".NETCoreApp,Version=v6.0/win-x86": {
-      "IDMS Agent Remote Tool/0.0.0.8": {
+      "IDMS Agent Remote Tool/0.0.0.9": {
         "dependencies": {
           "System.Management": "7.0.0",
           "System.Web.Extensions": "3.5.0.0"
@@ -86,7 +86,7 @@
     }
   },
   "libraries": {
-    "IDMS Agent Remote Tool/0.0.0.8": {
+    "IDMS Agent Remote Tool/0.0.0.9": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
