@@ -8,7 +8,7 @@
         <beforeApplicationStartup />
       </update>
     </subscription>
-    <deploymentProvider codebase="https://git.dswd.gov.ph/dpcadano/idms-agent-remote-tool-server-updates/-/blob/master/PublishSetup/IDMS%20Agent%20Remote%20Tool.application/IDMS%20Agent%20Remote%20Tool.application" />
+    <deploymentProvider codebase="https://git.dswd.gov.ph/dpcadano/idms-agent-remote-tool-server-updates/-/blob/master/PublishSetup/IDMS%20Agent%20Remote%20Tool.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
