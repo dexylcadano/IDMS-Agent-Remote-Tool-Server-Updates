@@ -112,7 +112,7 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "0.0.0.8",
+    "version": "0.0.0.9",
     "restore": {
       "projectUniqueName": "E:\\laragon\\www\\idms-agent-remote-tool\\IDMS Agent Remote Tool\\IDMS Agent Remote Tool.vbproj",
       "projectName": "IDMS Agent Remote Tool",
