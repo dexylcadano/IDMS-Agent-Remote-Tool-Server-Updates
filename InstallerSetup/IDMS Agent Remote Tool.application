@@ -16,13 +16,13 @@
   <dependency>
     <dependentAssembly dependencyType="install" codebase="Application Files\IDMS Agent Remote Tool_0_0_0_9\IDMS Agent Remote Tool.dll.manifest" size="10207">
       <assemblyIdentity name="IDMS Agent Remote Tool.exe" version="0.0.0.9" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
-      <hash>
+      <!-- <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
         <dsig:DigestValue>7BP/N13x5MycU4O7oDkq4zj8nciWeELnZNvJcyiW/aQ=</dsig:DigestValue>
-      </hash>
+      </hash> -->
     </dependentAssembly>
   </dependency>
 </asmv1:assembly>
