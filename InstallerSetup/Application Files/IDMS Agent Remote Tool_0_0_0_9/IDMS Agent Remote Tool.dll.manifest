@@ -187,8 +187,8 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>/vFUBAeqvi6jVB15luY0UM3TlVxL7ynzEq+PkXd8ZxI=</dsig:DigestValue>
-    </hash>
-  </file> -->
+    </hash> -->
+  </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
     <application>
       <!-- A list of the Windows versions that this application has been tested on
