@@ -78,7 +78,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>TULz+CK4b5GI1aq13R8+eGycAKyNwaXyL7qIFKyNBJo=</dsig:DigestValue>
+      <dsig:DigestValue>YP00T4yP33Y4a5LbnmEPNFVhACBCtniwY1vjAEp+08g=</dsig:DigestValue>
     </hash> -->
   </file>
   <file name="IDMS Agent Remote Tool.exe" size="528384">
