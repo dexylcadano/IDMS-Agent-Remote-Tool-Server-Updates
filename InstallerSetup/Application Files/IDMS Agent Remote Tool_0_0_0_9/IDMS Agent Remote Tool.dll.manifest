@@ -82,13 +82,13 @@
     </hash>
   </file>
   <file name="IDMS Agent Remote Tool.exe" size="528384">
-    <hash>
+    <!-- <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>V/oD7ncpLqLjM96VxIvhsTnsBSpQZqZVU1XbK4SXD44=</dsig:DigestValue>
-    </hash>
+    </hash> -->
   </file>
   <file name="IDMS Agent Remote Tool.runtimeconfig.json" size="266">
     <hash>
