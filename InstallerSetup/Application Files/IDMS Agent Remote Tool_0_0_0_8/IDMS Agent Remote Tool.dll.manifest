@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="IDMS Agent Remote Tool.exe" version="0.0.0.8" publicKeyToken="ff1dd83ea26c494b" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="IDMS Agent Remote Tool.exe" version="0.0.0.8" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="complete logo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="17344">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="16384">
       <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>sEYJE11YjPNs5zNrQ35mJhh+zE6IAQIDwZyldybF+hU=</dsig:DigestValue>
+        <dsig:DigestValue>srIXpJmoBPHAzEn+1qeeCU6WENWrAoDjHoLVsY4brxs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -72,22 +72,22 @@
       <dsig:DigestValue>QpVaPib5M0LGm5FdeQ7izBhGzCaTj7X6G675CMRA2rE=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="IDMS Agent Remote Tool.dll" size="1498048">
+  <file name="IDMS Agent Remote Tool.dll" size="1497088">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>qzBC+d2yyos1KqoxMLbHz+X/GneiS68A0kReU6xhFzk=</dsig:DigestValue>
+      <dsig:DigestValue>ptfMJYwhyjQEouLtIVHVOIbKORu+dm6zkA34GJzPNZ4=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="IDMS Agent Remote Tool.exe" size="529344">
+  <file name="IDMS Agent Remote Tool.exe" size="528384">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Mn2YnLmBnwJmAetwppH4gqToFzTSmqaCJ/FObXLJJMU=</dsig:DigestValue>
+      <dsig:DigestValue>IoP+uS7ND9kSWTaNkgOzv27NCER1BBStVCV/T7egWts=</dsig:DigestValue>
     </hash>
   </file>
   <file name="IDMS Agent Remote Tool.runtimeconfig.json" size="266">
@@ -206,4 +206,4 @@
       <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
     </application>
   </compatibility>
-<publisherIdentity name="CN=ENTDSWD\dpcadano" issuerKeyHash="5003136f2b85790005d925ebce993b13f9ad8f8e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>W/k7/ANaXB3JYDw/B502UP6nWp24ctx1wLFLvIggMOE=</DigestValue></Reference></SignedInfo><SignatureValue>GKmEzYiKyF8kKbhg3CP3A9l4CrmmbF6WBAB2QGcVTPUYjssJOedcjugo4e0r2q1TE+kHhJ8FY47r3rWNRBDlq6h8yLw1DBuNNt1u/numaFp+VvkOYgQeTuKPbpbsT0RCvJRqcRE9Q0nLZq2//NCg/gDX+RhcmDsOtZIvLIlu7Po=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sJ2YldCV7gfq3HbNb6zBrmMgHUECd+3YvT/s25eMlaAobqvBo41ZPgYmKo/NcVwTT5eV8829SVE5SFDud1/i8ugMMPGq8P6iKnnDgyUFIPkl+fKsGQwtmDnLaDDm48spCT3DfOQ/cC3B0/aJOOwbN6flt+98i+fnsOF+G1r1H5E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e1302088bc4bb1c075dc72b89d5aa7fe50369d073f3c60c91d5c5a03fc3bf95b" Description="" Url=""><as:assemblyIdentity name="IDMS Agent Remote Tool.exe" version="0.0.0.8" publicKeyToken="ff1dd83ea26c494b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ENTDSWD\dpcadano</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>6Iu0RlSNYStGVJIkFuiYX5ZlIqmhNKRcew1Q85f6b2c=</DigestValue></Reference></SignedInfo><SignatureValue>h5hqQ3UpOFxxaFAkBScd6vGFnIgQVqyxuKUQoTBJkvzPsR2syFcpj8D2HERv9JclVbCt5Enm9YjyrXIHoIB8IF1gpVIf0CtzxzkCs3leO56uTL1gTP2EBIABDBYHoT64nXoFCh2YnKXLhllL6WmLKBidijVSVZjs/PW1xQZ6dfw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sJ2YldCV7gfq3HbNb6zBrmMgHUECd+3YvT/s25eMlaAobqvBo41ZPgYmKo/NcVwTT5eV8829SVE5SFDud1/i8ugMMPGq8P6iKnnDgyUFIPkl+fKsGQwtmDnLaDDm48spCT3DfOQ/cC3B0/aJOOwbN6flt+98i+fnsOF+G1r1H5E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQefMS7/nNuqlNAu4aJdlWdDANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAARQBOAFQARABTAFcARABcAGQAcABjAGEAZABhAG4AbzAeFw0yNDA5MTIwNjE2MjJaFw0yNTA5MTIxMjE2MjJaMCsxKTAnBgNVBAMeIABFAE4AVABEAFMAVwBEAFwAZABwAGMAYQBkAGEAbgBvMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwnZiV0JXuB+rcds1vrMGuYyAdQQJ37di9P+zbl4yVoChuq8GjjVk+BiYqj81xXBNPl5Xzzb1JUTlIUO53X+Ly6Aww8arw/qIqecODJQUg+SX58qwZDC2YOctoMObjyykJPcN85D9wLcHT9ok47Bs3p+W373yL5+ew4X4bWvUfkQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBACutal3Zc8pgXBhE2qCEkAKhcUtGdNGev3q3lQkEM9th8iXAlxfYApwYVXbBBL8M8vdQxN883gKKs5G78TVFBv+/3UCyz81mRZNgVVDgtG7gZQ/zibLp4ZQ3b65E4AUXmr6QQ2vmjd3o6JtrhLRGfTPxprUpNKeq4RI9nttvxZiN</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+</asmv1:assembly>
