@@ -46,149 +46,149 @@
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="17344">
       <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
-      <hash>
+      <!-- <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
         <dsig:DigestValue>sEYJE11YjPNs5zNrQ35mJhh+zE6IAQIDwZyldybF+hU=</dsig:DigestValue>
-      </hash>
+      </hash> -->
     </dependentAssembly>
   </dependency>
   <file name="complete logo.ico" size="410598">
-    <hash>
+    <!-- <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>a7HVtQQKjExjT5FVksmytgmSJ58ISxFcV0tJX5w0dWQ=</dsig:DigestValue>
-    </hash>
+    </hash> -->
   </file>
   <file name="IDMS Agent Remote Tool.deps.json" size="3929">
-    <hash>
+    <!-- <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>QpVaPib5M0LGm5FdeQ7izBhGzCaTj7X6G675CMRA2rE=</dsig:DigestValue>
-    </hash>
+      <dsig:DigestValue>dSzFn9/vRHYhLZoBqFa/FeQAK9BO0kEtuytrTvEMrmM=</dsig:DigestValue>
+    </hash> -->
   </file>
   <file name="IDMS Agent Remote Tool.dll" size="1498048">
-    <hash>
+    <!-- <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>QgLfdt5Cqcrqv6I4vh02uhPWHdTCl9dJoBbMVhAZD0Y=</dsig:DigestValue>
-    </hash>
+      <dsig:DigestValue>e63MiVrv8ok6egwDP4usa94bAvPKJhsF2fVOl0IXjgs=</dsig:DigestValue>
+    </hash> -->
   </file>
-  <file name="IDMS Agent Remote Tool.exe" size="529344">
-    <hash>
+  <file name="IDMS Agent Remote Tool.exe" size="562624">
+    <!-- <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Mn2YnLmBnwJmAetwppH4gqToFzTSmqaCJ/FObXLJJMU=</dsig:DigestValue>
-    </hash>
+      <dsig:DigestValue>VVjgMyGS2mwNhUlkrGBqCy++Ma/3GXmw6tM7murgFlg=</dsig:DigestValue>
+    </hash> -->
   </file>
   <file name="IDMS Agent Remote Tool.runtimeconfig.json" size="266">
-    <hash>
+    <!-- <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>MhtORju6zWETqjN1Eb3r9ec1bplxdENGsoQkYHx7SDo=</dsig:DigestValue>
-    </hash>
+    </hash> -->
   </file>
   <file name="Resources\Led Gray.png" size="17073">
-    <hash>
+    <!-- <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>48mOBT5LWAjPvFtNFPPQS/ocubU7/KqDlAilBQ5roDY=</dsig:DigestValue>
-    </hash>
+    </hash> -->
   </file>
   <file name="Resources\Led Green.png" size="22765">
-    <hash>
+    <!-- <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>1iSPCjRrQBFfQgRvUgZ647VM27EQjqVeVzpignBwv9A=</dsig:DigestValue>
-    </hash>
+    </hash> -->
   </file>
   <file name="System.CodeDom.dll" size="187520">
-    <hash>
+    <!-- <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>eyul7eEa6KwtHWffEA+9I+RVWPiynPfKdnu0HU+IKBw=</dsig:DigestValue>
-    </hash>
+    </hash> -->
   </file>
   <file name="System.Data.Entity.dll" size="2879488">
-    <hash>
+    <!-- <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>+CFdrHu0j8oxLM2T4DTjlbcaQXM7QvBRBxFrQFWK1+E=</dsig:DigestValue>
-    </hash>
+    </hash> -->
   </file>
   <file name="System.Data.Linq.dll" size="684032">
-    <hash>
+    <!-- <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>dLzrPa9QCHjRG8xKux/ZeukkxgXfGZYVXnKKhDRvqzQ=</dsig:DigestValue>
-    </hash>
+    </hash> -->
   </file>
   <file name="System.Data.Services.Client.dll" size="462848">
-    <hash>
+    <!-- <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>NZ+/w5522/ziR/9jquyfEjb5fT5zpkGl4a4tsj6L0VI=</dsig:DigestValue>
-    </hash>
+    </hash> -->
   </file>
   <file name="System.Data.Services.Design.dll" size="163840">
-    <hash>
+    <!-- <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>PHiLibJOWIyN1LS7ropaQlJrickWI0vlq7zUAu6kWOk=</dsig:DigestValue>
-    </hash>
+    </hash> -->
   </file>
   <file name="System.Management.dll" size="295552">
-    <hash>
+    <!-- <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>ALNZn0u0jiWZ+VMZHVJtpDLCgNWuW8Qzkus3NS/eXLI=</dsig:DigestValue>
-    </hash>
+    </hash> -->
   </file>
   <file name="System.Web.Abstractions.dll" size="77824">
-    <hash>
+    <!-- <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>SlIS2DHQJmB1l8sIK/GA6ntypfXm/1+AYhFKQN0EeLk=</dsig:DigestValue>
-    </hash>
+    </hash> -->
   </file>
   <file name="System.Web.Extensions.dll" size="1282048">
-    <hash>
+    <!-- <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>/vFUBAeqvi6jVB15luY0UM3TlVxL7ynzEq+PkXd8ZxI=</dsig:DigestValue>
-    </hash>
+    </hash> -->
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
     <application>
@@ -207,4 +207,4 @@
       <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
     </application>
   </compatibility>
-<publisherIdentity name="CN=ENTDSWD\dpcadano" issuerKeyHash="5003136f2b85790005d925ebce993b13f9ad8f8e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+fs+1jsAQmsc220fNAA3rP/tWBw2e0FSv4xwtJ94qKE=</DigestValue></Reference></SignedInfo><SignatureValue>Az6Ny08D9/0BuJwwnOuBgltPWjb/173izvG2wAm/a0C7bAlQAHEbFyZHaxf6FVvXH3M20KhHpBRFTjkmpW6crpyNSgjOiP90BsCAS2OOQKUvm5teoCAUfty6ZKSTpq+t7cfYgJaS2VShPe2ciEDKGLjiE6RwvM8+3F3sJpR5Nyw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sJ2YldCV7gfq3HbNb6zBrmMgHUECd+3YvT/s25eMlaAobqvBo41ZPgYmKo/NcVwTT5eV8829SVE5SFDud1/i8ugMMPGq8P6iKnnDgyUFIPkl+fKsGQwtmDnLaDDm48spCT3DfOQ/cC3B0/aJOOwbN6flt+98i+fnsOF+G1r1H5E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a1a8789fb4708cbf52417b361c58edffac3700341f6ddb1c6b42003bd63efbf9" Description="" Url=""><as:assemblyIdentity name="IDMS Agent Remote Tool.exe" version="0.0.0.8" publicKeyToken="ff1dd83ea26c494b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ENTDSWD\dpcadano</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>M5TLXUHhUsFwwTxeehG01ZFlC+dt3/gH0f9ygEunWMI=</DigestValue></Reference></SignedInfo><SignatureValue>L62y9pVwKKH1KJBRqQHL51jI6/XEJO2dGPdz1sRrvAufDqifohhfcrmOk+ZpGQXweK1RaZflO3TaL2xe09lc9Z7MzBW7gyeCsUhtbhDzTxUTXDI6RJ7W+PuWy+6q6x+BOCNC8FmbyFFX8U1Ddjt5p+avyTQE9aKRuZyqzB+iqqY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sJ2YldCV7gfq3HbNb6zBrmMgHUECd+3YvT/s25eMlaAobqvBo41ZPgYmKo/NcVwTT5eV8829SVE5SFDud1/i8ugMMPGq8P6iKnnDgyUFIPkl+fKsGQwtmDnLaDDm48spCT3DfOQ/cC3B0/aJOOwbN6flt+98i+fnsOF+G1r1H5E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQefMS7/nNuqlNAu4aJdlWdDANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAARQBOAFQARABTAFcARABcAGQAcABjAGEAZABhAG4AbzAeFw0yNDA5MTIwNjE2MjJaFw0yNTA5MTIxMjE2MjJaMCsxKTAnBgNVBAMeIABFAE4AVABEAFMAVwBEAFwAZABwAGMAYQBkAGEAbgBvMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwnZiV0JXuB+rcds1vrMGuYyAdQQJ37di9P+zbl4yVoChuq8GjjVk+BiYqj81xXBNPl5Xzzb1JUTlIUO53X+Ly6Aww8arw/qIqecODJQUg+SX58qwZDC2YOctoMObjyykJPcN85D9wLcHT9ok47Bs3p+W373yL5+ew4X4bWvUfkQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBACutal3Zc8pgXBhE2qCEkAKhcUtGdNGev3q3lQkEM9th8iXAlxfYApwYVXbBBL8M8vdQxN883gKKs5G78TVFBv+/3UCyz81mRZNgVVDgtG7gZQ/zibLp4ZQ3b65E4AUXmr6QQ2vmjd3o6JtrhLRGfTPxprUpNKeq4RI9nttvxZiN</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+<publisherIdentity name="CN=ENTDSWD\dpcadano" issuerKeyHash="5003136f2b85790005d925ebce993b13f9ad8f8e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>0rbn2G+whHJJhpvb2H+3kS+m6sBpHnq6uTWAkp9Rl/o=</DigestValue></Reference></SignedInfo><SignatureValue>a7WHG2krZTvf1l49lp0AKDf4nQ4msMbRt32HhX5UsfyOOl7r7IHghU96RTpoV/fBx3/NJhHospX4/pcuRBS0bWYhC2tk9H7hrbGCJEacO1gANLVR6R5QnlEOCwVAC8D1DIxUtlGi51n0hzHyDp0XDb4h4MC/OTlw6xbXPk/co6E=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sJ2YldCV7gfq3HbNb6zBrmMgHUECd+3YvT/s25eMlaAobqvBo41ZPgYmKo/NcVwTT5eV8829SVE5SFDud1/i8ugMMPGq8P6iKnnDgyUFIPkl+fKsGQwtmDnLaDDm48spCT3DfOQ/cC3B0/aJOOwbN6flt+98i+fnsOF+G1r1H5E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fa97519f928035b9ba7a1e69c0eaa62f91b77fd8db9b86497284b06fd8e7b6d2" Description="" Url=""><as:assemblyIdentity name="IDMS Agent Remote Tool.exe" version="0.0.0.8" publicKeyToken="ff1dd83ea26c494b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ENTDSWD\dpcadano</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>IMAjO7RKbzTApjjKofZaNmjeKjZjTAAhDIz+5ytW9lQ=</DigestValue></Reference></SignedInfo><SignatureValue>GVeeXIDAShFFSjaY4Xb52mCFn5ANf71p+feFynSPocE2qPQE1MglzE2Jlr8C1I2tLwKldFPFwkGIlU18MhTxUr41qEH4FdD9WbvTyvGNZgX62XNtH9OKMqsbjOwSm98pUT3MwD2uZCH11RFV5XMkIf7oT5UYO+FlNS5iXP+bh+g=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sJ2YldCV7gfq3HbNb6zBrmMgHUECd+3YvT/s25eMlaAobqvBo41ZPgYmKo/NcVwTT5eV8829SVE5SFDud1/i8ugMMPGq8P6iKnnDgyUFIPkl+fKsGQwtmDnLaDDm48spCT3DfOQ/cC3B0/aJOOwbN6flt+98i+fnsOF+G1r1H5E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQefMS7/nNuqlNAu4aJdlWdDANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAARQBOAFQARABTAFcARABcAGQAcABjAGEAZABhAG4AbzAeFw0yNDA5MTIwNjE2MjJaFw0yNTA5MTIxMjE2MjJaMCsxKTAnBgNVBAMeIABFAE4AVABEAFMAVwBEAFwAZABwAGMAYQBkAGEAbgBvMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwnZiV0JXuB+rcds1vrMGuYyAdQQJ37di9P+zbl4yVoChuq8GjjVk+BiYqj81xXBNPl5Xzzb1JUTlIUO53X+Ly6Aww8arw/qIqecODJQUg+SX58qwZDC2YOctoMObjyykJPcN85D9wLcHT9ok47Bs3p+W373yL5+ew4X4bWvUfkQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBACutal3Zc8pgXBhE2qCEkAKhcUtGdNGev3q3lQkEM9th8iXAlxfYApwYVXbBBL8M8vdQxN883gKKs5G78TVFBv+/3UCyz81mRZNgVVDgtG7gZQ/zibLp4ZQ3b65E4AUXmr6QQ2vmjd3o6JtrhLRGfTPxprUpNKeq4RI9nttvxZiN</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
