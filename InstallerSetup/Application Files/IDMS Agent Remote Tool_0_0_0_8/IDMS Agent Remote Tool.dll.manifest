@@ -92,13 +92,13 @@
     </hash>
   </file>
   <file name="IDMS Agent Remote Tool.runtimeconfig.json" size="266">
-    <!-- <hash>
+    <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>MhtORju6zWETqjN1Eb3r9ec1bplxdENGsoQkYHx7SDo=</dsig:DigestValue>
-    </hash> -->
+    </hash>
   </file>
   <file name="Resources\Led Gray.png" size="17073">
     <hash>
