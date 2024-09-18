@@ -46,50 +46,50 @@
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="17344">
       <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
-      <!-- <hash>
+      <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
         <dsig:DigestValue>sEYJE11YjPNs5zNrQ35mJhh+zE6IAQIDwZyldybF+hU=</dsig:DigestValue>
-      </hash> -->
+      </hash>
     </dependentAssembly>
   </dependency>
   <file name="complete logo.ico" size="410598">
-    <!-- <hash>
+    <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>a7HVtQQKjExjT5FVksmytgmSJ58ISxFcV0tJX5w0dWQ=</dsig:DigestValue>
-    </hash> -->
+    </hash>
   </file>
   <file name="IDMS Agent Remote Tool.deps.json" size="3929">
-    <!-- <hash>
+    <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>dSzFn9/vRHYhLZoBqFa/FeQAK9BO0kEtuytrTvEMrmM=</dsig:DigestValue>
-    </hash> -->
+    </hash>
   </file>
   <file name="IDMS Agent Remote Tool.dll" size="1498048">
-    <!-- <hash>
+    <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>4YFnxYZb6xbHkIsuYb7P+JtceUUzpT0KqH7CaYrG+3M=</dsig:DigestValue>
-    </hash> -->
+    </hash>
   </file>
   <file name="IDMS Agent Remote Tool.exe" size="562624">
-    <!-- <hash>
+    <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>I4roi4xuuQIWZJzg5zlbB9NSNMYwW+VszOwS7R4sWd4=</dsig:DigestValue>
-    </hash> -->
+    </hash>
   </file>
   <file name="IDMS Agent Remote Tool.runtimeconfig.json" size="266">
     <!-- <hash>
@@ -101,94 +101,94 @@
     </hash> -->
   </file>
   <file name="Resources\Led Gray.png" size="17073">
-    <!-- <hash>
+    <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>48mOBT5LWAjPvFtNFPPQS/ocubU7/KqDlAilBQ5roDY=</dsig:DigestValue>
-    </hash> -->
+    </hash>
   </file>
   <file name="Resources\Led Green.png" size="22765">
-    <!-- <hash>
+    <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>1iSPCjRrQBFfQgRvUgZ647VM27EQjqVeVzpignBwv9A=</dsig:DigestValue>
-    </hash> -->
+    </hash>
   </file>
   <file name="System.CodeDom.dll" size="187520">
-    <!-- <hash>
+    <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>eyul7eEa6KwtHWffEA+9I+RVWPiynPfKdnu0HU+IKBw=</dsig:DigestValue>
-    </hash> -->
+    </hash>
   </file>
   <file name="System.Data.Entity.dll" size="2879488">
-    <!-- <hash>
+    <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>+CFdrHu0j8oxLM2T4DTjlbcaQXM7QvBRBxFrQFWK1+E=</dsig:DigestValue>
-    </hash> -->
+    </hash>
   </file>
   <file name="System.Data.Linq.dll" size="684032">
-    <!-- <hash>
+    <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>dLzrPa9QCHjRG8xKux/ZeukkxgXfGZYVXnKKhDRvqzQ=</dsig:DigestValue>
-    </hash> -->
+    </hash>
   </file>
   <file name="System.Data.Services.Client.dll" size="462848">
-    <!-- <hash>
+    <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>NZ+/w5522/ziR/9jquyfEjb5fT5zpkGl4a4tsj6L0VI=</dsig:DigestValue>
-    </hash> -->
+    </hash>
   </file>
   <file name="System.Data.Services.Design.dll" size="163840">
-    <!-- <hash>
+    <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>PHiLibJOWIyN1LS7ropaQlJrickWI0vlq7zUAu6kWOk=</dsig:DigestValue>
-    </hash> -->
+    </hash>
   </file>
   <file name="System.Management.dll" size="295552">
-    <!-- <hash>
+    <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>ALNZn0u0jiWZ+VMZHVJtpDLCgNWuW8Qzkus3NS/eXLI=</dsig:DigestValue>
-    </hash> -->
+    </hash>
   </file>
   <file name="System.Web.Abstractions.dll" size="77824">
-    <!-- <hash>
+    <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>SlIS2DHQJmB1l8sIK/GA6ntypfXm/1+AYhFKQN0EeLk=</dsig:DigestValue>
-    </hash> -->
+    </hash>
   </file>
   <file name="System.Web.Extensions.dll" size="1282048">
-    <!-- <hash>
+    <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>/vFUBAeqvi6jVB15luY0UM3TlVxL7ynzEq+PkXd8ZxI=</dsig:DigestValue>
-    </hash> -->
+    </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
     <application>
